@@ -8,7 +8,6 @@ import linkedin from '../../assets/images/footer/linkedin.png';
 import google from '../../assets/images/footer/google.png';
 import line from '../../assets/images/footer/line.png';
 import { Link } from "react-router-dom";
-import SubFooter from "./SubFooter";
 
 const Footer = () => {
     const email = 'daisaneformn@gmail.com';
@@ -19,8 +18,6 @@ const Footer = () => {
     return (
         <div className="">
             {/* make a donation */}
-
-            <SubFooter></SubFooter>
 
             {/* footer bottom */}
             <div className="footer-container bg-[#122362] px-[150px]">
@@ -47,12 +44,12 @@ const Footer = () => {
                     <div className="middle-div pt-0 mt-[246px] ">
                         <h2 className="link-title text-white text-[25px] mb-[13.34px] ">Links</h2>
                         <div className="copyright-link  flex flex-col text-lg text-[#D5D5D6]">
-                            <Link className="font-light mb-3"> {">"} <span className="ml-[15px]  "> Home</span></Link>
-                            <Link className="font-light mb-3"> {">"} <span className="ml-[15px] ">  Priorities</span></Link>
-                            <Link className="font-light mb-3"> {">"} <span className="ml-[15px] ">  Endorsements</span></Link>
-                            <Link className="font-light mb-3"> {">"} <span className="ml-[15px] ">  Events</span></Link>
-                            <Link className="font-light mb-3"> {">"} <span className="ml-[15px] ">  Privacy</span> & Policy</Link>
-                            <Link className="font-light mb-3"> {">"} <span className="ml-[15px] ">  Terms</span> & Conditions</Link>
+                            <Link to='/' className="font-light mb-3"> {">"} <span className="ml-[15px]  "> Home</span></Link>
+                            <Link to='/priorities' className="font-light mb-3"> {">"} <span className="ml-[15px] ">  Priorities</span></Link>
+                            <Link to='/endorsements' className="font-light mb-3"> {">"} <span className="ml-[15px] ">  Endorsements</span></Link>
+                            <Link to='/news' className="font-light mb-3"> {">"} <span className="ml-[15px] ">  Events</span></Link>
+                            <Link to='/priorities' className="font-light mb-3"> {">"} <span className="ml-[15px] ">  Privacy</span> & Policy</Link>
+                            <Link to='/priorities' className="font-light mb-3"> {">"} <span className="ml-[15px] ">  Terms</span> & Conditions</Link>
                         </div>
                     </div>
                     <div className="last-div pt-0 mt-[246px]  ">
@@ -62,9 +59,9 @@ const Footer = () => {
                         </div>
                         <p className="social-media flex justify-end  text-white leading-[37.05px] text-[25px] font-bold mb-[25px]">Our Social Media</p>
                         <div className="social-media-icon flex justify-end">
-                            <Link to='/'><img className="fb-icon pr-10" src={facebook} alt="" /></Link>
-                            <Link to='https://www.youtube.com/'><img className="x-icon pr-10" src={x} alt="" /></Link>
-                            <Link to='/'><img className="in-icon pr-10" src={linkedin} alt="" /></Link>
+                            <Link to='https://web.facebook.com/ahdaisane/?_rdc=1&_rdr'><img className="fb-icon pr-10" src={facebook} alt="" /></Link>
+                            <Link to='https://twitter.com/AbdiFor14A/status/1616890753187291137'><img className="x-icon pr-10" src={x} alt="" /></Link>
+                            <Link to='https://www.linkedin.com/in/abdidaisane/'><img className="in-icon pr-10" src={linkedin} alt="" /></Link>
                             <Link to='/'><img className="google-icon" src={google} alt="" /></Link>
                         </div>
                     </div>

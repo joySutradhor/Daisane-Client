@@ -8,7 +8,7 @@ import {
 } from "react-router-dom";
 import Main from './ClientSide/Main';
 import Home from './ClientSide/Pages/Home/Home';
-import MeetAbdi from './ClientSide/Pages/MeetAbdi/MeetAbdi';
+// import MeetAbdi from './ClientSide/Pages/MeetAbdi/MeetAbdi';
 import EndrosmentHome from './ClientSide/Pages/Endorsements/EndrosmentHome';
 import Priorities from './ClientSide/Pages/Prioritites/Prioties';
 import News from './ClientSide/Pages/News/News';
@@ -23,10 +23,10 @@ const router = createBrowserRouter([
         path : "/",
         element : <Home></Home>
       },
-      {
-        path : "/meetAbdi",
-        element : <MeetAbdi></MeetAbdi>
-      },
+      // {
+      //   path : "/meetAbdi",
+      //   element : <MeetAbdi></MeetAbdi>
+      // },
       {
         path : "/endorsements",
         element : <EndrosmentHome></EndrosmentHome>

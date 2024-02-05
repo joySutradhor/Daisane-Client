@@ -1,20 +1,24 @@
 .title {
-    font-family: "Oswald", sans-serif;
-    font-family: "Poppins", sans-serif;
-  }
-  .address {
-    /* font-family: "Oswald", sans-serif; */
-    font-family: "Poppins", sans-serif;
-  }
-  .news-title {
-    font-family: "Oswald", sans-serif;
-    font-family: "Poppins", sans-serif;
-  }
-  .title-2 {
-    font-family: "Oswald", sans-serif;
-    font-family: "Poppins", sans-serif;
-  }
-  .title-3 {
-    font-family: "Oswald", sans-serif;
-    font-family: "Poppins", sans-serif;
-  }
+  font-family: "Oswald", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+.address {
+  /* font-family: "Oswald", sans-serif; */
+  font-family: "Poppins", sans-serif;
+}
+
+.news-title {
+  font-family: "Oswald", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+.title-2 {
+  font-family: "Oswald", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+.title-3 {
+  font-family: "Oswald", sans-serif;
+  font-family: "Poppins", sans-serif;
+}

@@ -1,5 +1,6 @@
 import person from '../../../assets/images/priorities/person.png'
 import SubFooter from '../../Shared/SubFooter';
+import './Priorities.css'
 
 import Accordion from '@mui/material/Accordion';
 import AccordionDetails from '@mui/material/AccordionDetails';
@@ -32,14 +33,15 @@ const Priorities = () => {
                         <div>
                             <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
                                 <AccordionSummary
-                                    sx={{ backgroundColor: '#12225D' }}
+                                    sx={{ backgroundColor: '#12225D', height: '136px' }}
                                     expandIcon={<ExpandMoreIcon />}
                                     aria-controls="panel1bh-content"
                                     id="panel1bh-header"
 
 
+
                                 >
-                                    <Typography className='text-white' sx={{ width: '33%', flexShrink: 0 }}>
+                                    <Typography className='accordion-title text-white' sx={{ fontSize: '30px', fontWeight: 'bold', marginLeft: '50px', flexShrink: 0 }}>
                                         Affordable Housing
                                     </Typography>
                                     <Typography sx={{ color: 'text.secondary' }}></Typography>
@@ -66,12 +68,12 @@ const Priorities = () => {
                             </Accordion>
                             <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
                                 <AccordionSummary
-                                    sx={{ backgroundColor: '#12225D' }}
+                                    sx={{ backgroundColor: '#12225D', height: '136px' }}
                                     expandIcon={<ExpandMoreIcon />}
                                     aria-controls="panel2bh-content"
                                     id="panel2bh-header"
                                 >
-                                    <Typography className='text-white' sx={{ width: '33%', flexShrink: 0 }}>Users</Typography>
+                                    <Typography className='text-white accordion-title' sx={{ fontSize: '30px', fontWeight: 'bold', marginLeft: '50px', flexShrink: 0 }}>Invest in Education</Typography>
                                     <Typography sx={{ color: 'text.secondary' }}>
 
                                     </Typography>
@@ -86,13 +88,13 @@ const Priorities = () => {
                             </Accordion>
                             <Accordion expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
                                 <AccordionSummary
-                                    sx={{ backgroundColor: '#12225D' }}
+                                    sx={{ backgroundColor: '#12225D', height: '136px' }}
                                     expandIcon={<ExpandMoreIcon />}
                                     aria-controls="panel3bh-content"
                                     id="panel3bh-header"
                                 >
-                                    <Typography className='text-white' sx={{ width: '33%', flexShrink: 0 }}>
-                                        Advanced settings
+                                    <Typography className='accordion-title text-white' sx={{ fontSize: '30px', fontWeight: 'bold', marginLeft: '50px', flexShrink: 0 }}>
+                                        Early Childhood Education
                                     </Typography>
                                     <Typography sx={{ color: 'text.secondary' }}>
 
@@ -107,13 +109,13 @@ const Priorities = () => {
                             </Accordion>
                             <Accordion expanded={expanded === 'panel4'} onChange={handleChange('panel4')}>
                                 <AccordionSummary
-                                    sx={{ backgroundColor: '#12225D' }}
+                                    sx={{ backgroundColor: '#12225D', height: '136px' }}
                                     expandIcon={<ExpandMoreIcon />}
                                     aria-controls="panel4bh-content"
                                     id="panel4bh-header"
                                 >
-                                    <Typography className='text-white' sx={{ width: '33%', flexShrink: 0 }}>
-                                        Advanced settings
+                                    <Typography className='accordion-title text-white' sx={{ fontSize: '30px', fontWeight: 'bold', marginLeft: '50px', flexShrink: 0 }}>
+                                        Supporting Small Businesses
                                     </Typography>
                                     <Typography sx={{ color: 'text.secondary' }}>
 
@@ -128,13 +130,13 @@ const Priorities = () => {
                             </Accordion>
                             <Accordion expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
                                 <AccordionSummary
-                                    sx={{ backgroundColor: '#12225D' }}
+                                    sx={{ backgroundColor: '#12225D', height: '136px' }}
                                     expandIcon={<ExpandMoreIcon />}
                                     aria-controls="panel5bh-content"
                                     id="panel5bh-header"
                                 >
-                                    <Typography className='text-white' sx={{ width: '33%', flexShrink: 0 }}>
-                                        Advanced settings
+                                    <Typography className='accordion-title text-white' sx={{ fontSize: '30px', fontWeight: 'bold', marginLeft: '50px', flexShrink: 0 }}>
+                                        Climate Justice
                                     </Typography>
                                     <Typography sx={{ color: 'text.secondary' }}>
 
@@ -149,13 +151,13 @@ const Priorities = () => {
                             </Accordion>
                             <Accordion expanded={expanded === 'panel6'} onChange={handleChange('panel6')}>
                                 <AccordionSummary
-                                    sx={{ backgroundColor: '#12225D' }}
+                                    sx={{ backgroundColor: '#12225D', height: '136px' }}
                                     expandIcon={<ExpandMoreIcon />}
                                     aria-controls="panel6bh-content"
                                     id="panel6bh-header"
                                 >
-                                    <Typography className='text-white' sx={{ width: '33%', flexShrink: 0 }}>
-                                        Advanced settings
+                                    <Typography className='accordion-title text-white' sx={{ fontSize: '30px', fontWeight: 'bold', marginLeft: '50px', flexShrink: 0 }}>
+                                        Healthcare
                                     </Typography>
                                     <Typography sx={{ color: 'text.secondary' }}>
 
@@ -170,13 +172,13 @@ const Priorities = () => {
                             </Accordion>
                             <Accordion expanded={expanded === 'panel7'} onChange={handleChange('panel7')}>
                                 <AccordionSummary
-                                    sx={{ backgroundColor: '#12225D' }}
+                                    sx={{ backgroundColor: '#12225D', height: '136px' }}
                                     expandIcon={<ExpandMoreIcon />}
                                     aria-controls="panel7bh-content"
                                     id="panel7bh-header"
                                 >
-                                    <Typography className='text-white' sx={{ width: '33%', flexShrink: 0 }}>
-                                        Advanced settings
+                                    <Typography className='accordion-title text-white' sx={{ fontSize: '30px', fontWeight: 'bold', marginLeft: '50px', flexShrink: 0 }}>
+                                        Reproductive Rights
                                     </Typography>
                                     <Typography sx={{ color: 'text.secondary' }}>
 
@@ -191,13 +193,13 @@ const Priorities = () => {
                             </Accordion>
                             <Accordion expanded={expanded === 'panel8'} onChange={handleChange('panel8')}>
                                 <AccordionSummary
-                                    sx={{ backgroundColor: '#12225D' }}
+                                    sx={{ backgroundColor: '#12225D', height: '136px' }}
                                     expandIcon={<ExpandMoreIcon />}
                                     aria-controls="panel8bh-content"
                                     id="panel8bh-header"
                                 >
-                                    <Typography className='text-white' sx={{ width: '33%', flexShrink: 0 }}>
-                                        Advanced settings
+                                    <Typography className='accordion-title text-white' sx={{ fontSize: '30px', fontWeight: 'bold', marginLeft: '50px', flexShrink: 0 }}>
+                                        Public Safety
                                     </Typography>
                                     <Typography sx={{ color: 'text.secondary' }}>
 

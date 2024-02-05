@@ -1,14 +1,13 @@
 import line1 from '../../../assets/images/news/line1.png';
 import person from '../../../assets/images/news/person.png';
-import person2 from '../../../assets/images/news/person2.png';
-import person3 from '../../../assets/images/news/person3.png';
-import person4 from '../../../assets/images/news/person4.png';
 import fb from "/fb.png"
 import x from "/x.png"
 import linkedin from "/linkedin.png"
 import googlePlus from "/googlePlus.png"
 import heroThree from '/hero3.png';
 import './News.css';
+// import Carousel from './NewsCarousel ';
+import NewsCarousel from './NewsCarousel';
 
 const News = () => {
     return (
@@ -59,10 +58,11 @@ const News = () => {
 
                 <div>
                     <h5 className='news-title mb-[100px] text-[#12225D] font-bold text-[80px] flex justify-center'>News</h5>
+                    <NewsCarousel></NewsCarousel>
                     {/* card */}
-                    <div className='flex'>
-                        {/* card 1 */}
-                        <div className="card mr-[83px] w-[485px] h-[660px] bg-base-100 shadow-xl">
+                    {/* <div className='flex'> */}
+                    {/* card 1 */}
+                    {/* <div className="card mr-[83px] w-[485px] h-[660px] bg-base-100 shadow-xl">
                             <figure><img className='mb-[35px] object-cover' src={person2} alt="Shoes" /></figure>
                             <div className="card-body">
                                 <h5 className='title-2 mb-[25px] font-bold text-[25px]'>Abdi Daisane: Entrepreneurial work for the community good</h5>
@@ -72,22 +72,22 @@ const News = () => {
 
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
 
-                        {/* card 2 */}
-                        <div className="card mr-[83px] w-[485px] h-[660px] bg-base-100 shadow-xl">
-                            <figure><img className='mb-[35px] object-fill' src={person3} alt="Shoes" /></figure>
-                            <div className="card-body">
-                                <h5 className='title-2 mb-[25px] font-bold text-[25px]'>Abdi Daisane: Entrepreneurial work for the community good</h5>
-                                <h5 className='title-3 mb-[54px] text-[#7B7882] text-[25px]'>Abdi Daisane came to St. Cloud to finish his education. Since then, he’s been paying it forward.</h5>
-                                <div className="card-actions justify-start">
-                                    <div className="badge">READ MORE</div>
+                    {/* card 2 */}
+                    {/* <div className="card mr-[83px] w-[485px] h-[660px] bg-base-100 shadow-xl">
+                        <figure><img className='mb-[35px] object-fill' src={person3} alt="Shoes" /></figure>
+                        <div className="card-body">
+                            <h5 className='title-2 mb-[25px] font-bold text-[25px]'>Abdi Daisane: Entrepreneurial work for the community good</h5>
+                            <h5 className='title-3 mb-[54px] text-[#7B7882] text-[25px]'>Abdi Daisane came to St. Cloud to finish his education. Since then, he’s been paying it forward.</h5>
+                            <div className="card-actions justify-start">
+                                <div className="badge">READ MORE</div>
 
-                                </div>
                             </div>
                         </div>
-                        {/* card 3 */}
-                        <div className="card w-[485px] h-[660px] bg-base-100 shadow-xl">
+                    </div> */}
+                    {/* card 3 */}
+                    {/* <div className="card w-[485px] h-[660px] bg-base-100 shadow-xl">
                             <figure><img className='mb-[35px] h-[352px]' src={person4} alt="Shoes" /></figure>
                             <div className="card-body">
                                 <h5 className='title-2 mb-[25px] font-bold text-[25px]'>Abdi Daisane: Entrepreneurial work for the community good</h5>
@@ -97,8 +97,8 @@ const News = () => {
 
                                 </div>
                             </div>
-                        </div>
-                    </div>
+                        </div> */}
+                    {/* </div> */}
                 </div>
             </div>
 
