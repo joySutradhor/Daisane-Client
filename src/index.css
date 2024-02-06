@@ -10,7 +10,7 @@
 
 @layer components {
   .lR{
-    @apply  2xl:mx-[150px]  xl:mx-[100px]
+    @apply  2xl:mx-[150px]  xl:mx-[100px] mx-[25px]
   }
   .tB{
     @apply my-[50px]
@@ -32,9 +32,9 @@
     @apply 2xl:text-[100px] 2xl:font-bold 2xl:text-white ;
   }
   h2 {
-    @apply text-[#12225D] 2xl:text-[80px] 2xl:font-bold  xl:text-[55px]
+    @apply text-[#12225D] 2xl:text-[80px] 2xl:font-bold  xl:text-[55px] text-[18px]
   }
   p{
-    @apply text-[#959595] 2xl:text-[25px] text-justify xl:text-[18px]
+    @apply text-[#959595] 2xl:text-[25px] text-justify xl:text-[18px] text-[12px]
   }
 }
