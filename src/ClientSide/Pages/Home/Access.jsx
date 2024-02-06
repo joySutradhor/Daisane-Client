@@ -1,5 +1,5 @@
 
-import access from "/access.jpeg"
+import access from "/family.jpg"
 import "./Access.css"
 import { Link } from "react-router-dom";
 const Access = () => {
@@ -21,7 +21,7 @@ const Access = () => {
             </style>
             <div className="lR xl:grid xl:grid-cols-2 2xl:gap-x-[96px] xl:gap-x-[68px]">
                 <div>
-                    <img className="2xl:h-[979px] 2xl:w-[803px] xl:w-[635px] xl:h-[774px] w-[310px] h-[386px] rounded-[10px] object-center accessImg " src={access} alt="" />
+                    <img className="2xl:h-[979px] 2xl:w-[803px] xl:w-[635px] xl:h-[774px] w-[310px] h-[386px] rounded-[10px] object-cover accessImg " src={access} alt="" />
                 </div>
                 <div>
 

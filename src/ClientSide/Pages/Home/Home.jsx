@@ -1,5 +1,5 @@
 import Access from "./Access";
-// import HeroSeciton from "./HeroSeciton";
+import HeroSeciton from "./HeroSeciton";
 // import Myplatfrom from "./Myplatfrom";
 import Youtube from "./Youtube";
 
@@ -7,7 +7,7 @@ import Youtube from "./Youtube";
 const Home = () => {
     return (
         <div>
-            {/* <HeroSeciton></HeroSeciton> */}
+            <HeroSeciton></HeroSeciton>
             {/* <Myplatfrom></Myplatfrom> */}
             <Access></Access>
             <Youtube></Youtube>
