@@ -1,34 +1,39 @@
-import person from '../../../assets/images/priorities/person.png'
-import SubFooter from '../../Shared/SubFooter';
+// import person from '../../../assets/images/priorities/person.png'
+// import SubFooter from '../../Shared/SubFooter';
 import './Priorities.css'
 
-import Accordion from '@mui/material/Accordion';
-import AccordionDetails from '@mui/material/AccordionDetails';
-import AccordionSummary from '@mui/material/AccordionSummary';
-import Typography from '@mui/material/Typography';
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+// import Accordion from '@mui/material/Accordion';
+// import AccordionDetails from '@mui/material/AccordionDetails';
+// import AccordionSummary from '@mui/material/AccordionSummary';
+// import Typography from '@mui/material/Typography';
+// import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
-import { useState } from "react";
+// import { useState } from "react";
+import PriotiesHero from './PriotiesHero';
+import PriotitesAccordian from './PriotitesAccordian';
 
 
 // eslint-disable-next-line react/prop-types
 const Priorities = () => {
-    const [expanded, setExpanded] = useState(false);
+    // const [expanded, setExpanded] = useState(false);
 
-    const handleChange = (panel) => (event, isExpanded) => {
-        setExpanded(isExpanded ? panel : false);
-    };
+    // const handleChange = (panel) => (event, isExpanded) => {
+    //     setExpanded(isExpanded ? panel : false);
+    // };
 
 
     return (
         <div >
+            <PriotiesHero></PriotiesHero>
+            <PriotitesAccordian></PriotitesAccordian>
 
-            <div className='mb-[250px]  px-[150px]'>
+
+            {/* <div className='mb-[250px]  px-[150px]'>
                 <div className='flex'>
                     <div>
                         <img className='w-[626px] h-[890px]' src={person} alt="" />
                     </div>
-                    {/* accordian */}
+              
                     <div className='w-[898px] ml-[96px]'>
                         <div>
                             <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
@@ -217,8 +222,8 @@ const Priorities = () => {
                     </div>
                 </div>
 
-            </div>
-            <SubFooter></SubFooter>
+            </div> */}
+            {/* <SubFooter></SubFooter> */}
 
 
 

@@ -22,7 +22,8 @@
     "react-multi-carousel": "^2.8.4",
     "react-router-dom": "^6.21.3",
     "sonner": "^1.4.0",
-    "sort-by": "^1.2.0"
+    "sort-by": "^1.2.0",
+    "swiper": "^11.0.6"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",

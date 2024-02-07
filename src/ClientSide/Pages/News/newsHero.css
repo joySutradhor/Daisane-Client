@@ -1,0 +1,19 @@
+@media only screen and (min-width: 1366px) and (max-width: 1439px) {
+    .newsImg {
+        width: 796px ;
+        /* height: 656px; */
+        /* padding-right: 66px; */
+        padding-top: 60px;
+       
+
+    }
+    .newsText{
+        padding-top: 277px;
+        line-height: 88.92px;
+        font-size: 60px;
+        margin-right: 82px;
+    }
+    .newsSocail{
+        margin-top: 277px;
+    }
+  }
