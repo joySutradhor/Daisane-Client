@@ -28,3 +28,17 @@
     margin-top: 20px;
    }
 }
+
+@media only screen and (min-width: 414px) and (max-width: 767px) {
+    
+    .newsCardImg {
+        width: 344px;
+        height: 276px;
+        object-fit: cover;
+        border-radius: 6px;
+    }
+    .newsCardLeftRight {
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+ }

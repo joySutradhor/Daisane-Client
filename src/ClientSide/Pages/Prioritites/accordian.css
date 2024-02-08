@@ -8,3 +8,22 @@
         line-height: 27px;
     }
    }
+
+   @media only screen and (min-width: 414px) and (max-width: 767px) {
+
+    .priotiesLeft{
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+    .prioImg {
+        width: 344px;
+        height: 428px;
+        object-fit: cover;
+    }
+    .accordianWidth{
+        width: 344px;
+    }
+    .accordianFirstText {
+        margin-top: 35px;
+    }
+  }

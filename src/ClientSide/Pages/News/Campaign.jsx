@@ -11,7 +11,7 @@ const Campaign = () => {
         fontFamily: "'Poppins', sans-serif",
     };
     return (
-        <div className="lR border-t-[2px] border-[#12225D] border-b-[2px]">
+        <div className="lR newsLeftRight border-t-[2px] border-[#12225D] border-b-[2px]">
             <style>
                 {`
           @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
@@ -20,7 +20,7 @@ const Campaign = () => {
             </style>
             <div className="xl:flex items-center">
                 <div className="">
-                    <img className="2xl:pt-[60px] 2xl:pb-[60px] xl:pt-[50px] xl:pb-[50px] pt-[15px] pb-[32px] 2xl:w-[583px] xl:w-[515px] w-[309px] object-cover mainCardCamp " src={camp} alt="" />
+                    <img className="2xl:pt-[60px] 2xl:pb-[60px] xl:pt-[50px] xl:pb-[50px] pt-[15px] pb-[32px] 2xl:w-[583px] xl:w-[515px] w-[309px] object-cover mainCardCamp newsHeadImg " src={camp} alt="" />
                 </div>
                 <div className="2xl:ml-[96px] xl:ml-[70px] mainGap">
                     <h3 className="2xl:text-[40px] xl:text-[30px] text-[15px] leading-[19px] xl:leading-[40px] 2xl:leading-[40px] xl:mb-[25px] 2xl:mb-[35px] mb-[15px] font-bold mainText" style={poppinsFontStyle}>Campaign kickoff for Abdi Daisane for Minnesota House 14A</h3>

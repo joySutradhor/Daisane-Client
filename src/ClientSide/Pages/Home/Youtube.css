@@ -4,3 +4,14 @@
         width:  1170px;
     }
 }
+
+@media only screen and (min-width: 414px) and (max-width: 767px) {
+    .youTubeHeightWidth {
+        width:  344px;
+        border-radius: 15px;
+    }
+    .leftRightW {
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+}

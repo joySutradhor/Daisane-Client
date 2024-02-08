@@ -18,7 +18,7 @@ const HeroSeciton = () => {
         `}
             </style>
             <div className="2xl:mb-[250px] xl:mb-[200px] mb-[60px] bg-[#12225D] xl:rounded-[44px] rounded-[15px]">
-                <div className="2xl:ml-[150px] xl:ml-[100px] ml-[25px] flex ">
+                <div className="2xl:ml-[150px] xl:ml-[100px] ml-[25px] heroLeft flex ">
                     <div>
                         <h2 className="2xl:w-[652px]  2xl:pt-[176px] 2xl:text-[80px] font-bold xl:pt-[149px] pt-[34px] 2xl:leading-[90px] xl:leading-[80px] 2xl:mr-[227px] xl:mr-[13px] xl:text-[60px] text-white heroText" style={customFontStyle}>
                             My story is one of resilience, <br /> perseverance,   and a deep commitment to serving others .

@@ -21,3 +21,17 @@
     }
   
 }
+@media only screen and (min-width: 414px) and (max-width: 767px) {
+   
+    .newsHeadImg {
+        width: 344px;
+        height: 223px;
+        object-fit: cover;
+    }
+
+    .newsLeftRight {
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+  
+}

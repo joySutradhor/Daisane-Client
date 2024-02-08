@@ -20,3 +20,34 @@
     
 
 }
+
+@media only screen and (min-width: 414px) and (max-width: 767px) {
+    
+    .supportImgHeightWidht{
+        width: 344px;
+        height: 428px;
+        object-fit: cover;
+    }
+    .endroLeftRight{
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+    .endroHeadingTop {
+        margin-top: 35px;
+    }
+    .endroSubHedding{
+        padding-bottom: 30px;
+    }
+    .endroFromTop {
+        padding-top: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .endroTextleftRight{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .btnBoottom{
+        padding-bottom: 30px;
+    }
+  }

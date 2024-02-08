@@ -7,3 +7,23 @@
         height: 739px;
     }
   }
+
+  @media only screen and (min-width: 414px) and (max-width: 767px) {
+    .accImg {
+        width: 344px;
+        height: 430px;
+        object-fit: cover;
+        
+    }
+    .leftRSpace{
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+    .textTop{
+        margin-top: 35px;
+    }
+    .btnTop{
+        margin-top: 35px;
+    }
+    
+  }

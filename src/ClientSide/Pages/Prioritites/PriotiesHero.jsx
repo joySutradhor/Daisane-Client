@@ -22,7 +22,7 @@ const PriotiesHero = () => {
         `}
             </style>
             <div className="2xl:mb-[250px] xl:mb-[200px] mb-[60px] bg-[#12225D] xl:rounded-[44px] rounded-[15px]">
-                <div className="2xl:ml-[150px] xl:ml-[100px] ml-[25px] flex ">
+                <div className="2xl:ml-[150px] xl:ml-[100px] ml-[25px] heroLeft flex ">
                     <div className="mr-[55px] xl:mr-0 2xl:mr-0">
                         <h2 className="2xl:w-[554px]  2xl:pt-[339px] xl:pt-[304px] pt-[74px] 2xl:text-[100px] xl:text-[60px] xl:leading-[90px] xl:mr-[340px] 2xl:mr-[176px] mr-[10px] text-white protiesText" style={customFontStyle}>
                             Priorities
@@ -36,7 +36,7 @@ const PriotiesHero = () => {
                             </div>
                         </div>
                     </div>
-                    <img className=" 2xl:w-[856px] xl:w-[726px]  2xl:h-[847px]   w-[182px] xl:pt-[66px] object-cover 2xl:pr-[0px] xl:pr-[0px] protiesImg " src={daisanePrioties} alt="daisane hero image" />
+                    <img className=" 2xl:w-[856px] xl:w-[726px]  2xl:h-[847px]   w-[182px] xl:pt-[66px] object-cover 2xl:pr-[0px] xl:pr-[0px]  protiesImg " src={daisanePrioties} alt="daisane hero image" />
                 </div>
 
             </div>

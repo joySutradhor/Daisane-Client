@@ -31,7 +31,7 @@ const News = () => {
         `}
                 </style>
                 <div className="2xl:mb-[250px] xl:mb-[200px] mb-[60px] bg-[#12225D] xl:rounded-[44px] rounded-[15px]">
-                    <div className="2xl:ml-[150px] xl:ml-[100px] ml-[25px] flex ">
+                    <div className="2xl:ml-[150px] xl:ml-[100px] ml-[25px] newsHeroLeft flex ">
                         <div>
                             <h2 className="  2xl:pt-[327px] xl:pt-[304px] pt-[74px] 2xl:text-[100px] xl:text-[60px] 2xl:leading-[90px] xl:mr-[133px] 2xl:mr-[176px] mr-[27px] text-white newsText" style={customFontStyle}>
                                 News & Events

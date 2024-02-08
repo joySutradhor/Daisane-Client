@@ -19,7 +19,7 @@ const PriotitesAccordian = () => {
     };
 
     return (
-        <div className='lR xl:flex '>
+        <div className='lR priotiesLeft xl:flex 2xl:mb-[250px] xl:mb-[200px] mb-[60px] '>
             <style>
                 {`
           @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
@@ -27,10 +27,10 @@ const PriotitesAccordian = () => {
         `}
             </style>
             <div>
-                <img className='2xl:w-[626px] xl:w-[566px] w-[310px] h-[386px] xl:h-[805px] 2xl:h-[890px] object-cover rounded-[10px]' src={pSide} alt="" />
+                <img className='2xl:w-[626px] xl:w-[566px] w-[310px] h-[386px] xl:h-[805px] 2xl:h-[890px] object-cover prioImg rounded-[10px]' src={pSide} alt="" />
             </div>
-            <div className='2xl:w-[898px] xl:w-[634px] w-[310px] 2xl:ml-[96px] xl:ml-[70px]'>
-                <div className=" rounded 2xl:mb-[50px] xl:mb-[35px] mb-[15px] mt-[25px] xl:mt-0 2xl:mt-0 ">
+            <div className='2xl:w-[898px] xl:w-[634px] w-[310px] accordianWidth 2xl:ml-[96px] xl:ml-[70px]'>
+                <div className=" rounded 2xl:mb-[50px] xl:mb-[35px] mb-[15px] accordianFirstText mt-[25px] xl:mt-0 2xl:mt-0 ">
                     <div
                         className="flex items-center justify-between xl:rounded-[10px] rounded-[6px] cursor-pointer xl:pl-[35px] xl:pr-[50px] pl-[15px] pr-[15px]  2xl:pl-[50px] 2xl:pr-[100px] bg-[#12225D]"
                         onClick={() => toggleAccordion(1)}

@@ -24,7 +24,7 @@ export default function NewsMain() {
     };
     return (
         <>
-            <div className="lR 2xl:mt-[250px] 2xl:mb-[250px] xl:mt-[200px] xl:mb-[200px] mt-[60px] ">
+            <div className="lR newsCardLeftRight 2xl:mt-[250px] 2xl:mb-[250px] xl:mt-[200px] xl:mb-[200px] mb-[60px] mt-[60px] ">
                 <div>
                     <h3 className="2xl:text-[80px] xl:text-[60px] 2xl:mb-[100px] xl:mb-[80px] mb-[25px] font-bold xl:leading-[80px] xl:text-center text-[#12225D]" style={customFontStyle}>NEWS</h3>
                 </div>
@@ -232,7 +232,7 @@ export default function NewsMain() {
                                 </style>
 
                                 <div className="2xl:w-[485px] xl:w-[380px] newCardGap 2xl:mb-[70px] mb-[60px] xl:mb-[57px] 2xl:mr-[82px] xl:mr-[65px] cardGap cardGapRight  shadow-lg ">
-                                    <img className="2xl:w-[485px] xl:w-[380px] w-[310px] h-[249px]  xl:h-[276px] 2xl:h-[352px] object-cover mainCard " src={camp} alt="" />
+                                    <img className="2xl:w-[485px] xl:w-[380px] w-[310px] h-[249px]  xl:h-[276px] 2xl:h-[352px] object-cover mainCard newsCardImg rounded-[6px] " src={camp} alt="" />
                                     <h3 className="2xl:text-[25px] xl:text-[20px] text-[12px] leading-[17px] xl:leading-[28px] 2xl:leading-[28px] font-bold 2xl:pt-[35px] xl:pt-[20px] pt-[15px] xl:pb-[15px] xl:pl-[15px] pl-[10px] 2xl:pb-[25px] 2xl:pl-[20px] pb-[15px] cardMainText" style={customFontStyle}>Abdi Daisane: Entrepreneurial work for the community good</h3>
                                     <h4 className="2xl:text-[25px] xl:text-[18px] text-[12px] leading-[13px] xl:leading-[25px] 2xl:leading-[30px] font-normal text-justify  2xl:px-[20px] xl:px-[15px] px-[10px] text-[#7B7882] cardPara" style={poppinsFontStyle}>Abdi Daisane came to St. Cloud to finish his education. Since then, he’s been paying it forward.</h4>
                                     <div className="2xl:pb-[28px] xl:pb-[15px] pb-[13.26px] 2xl:pt-[47px] xl:pt-[30px] pt-[104px] cardTop">
@@ -251,7 +251,7 @@ export default function NewsMain() {
                                 </style>
 
                                 <div className="2xl:w-[485px] xl:w-[380px] newCardGap 2xl:mb-[70px] xl:mb-[57px] 2xl:mr-[82px] xl:mr-[65px] cardGap cardGapRight  shadow-lg ">
-                                    <img className="2xl:w-[485px] xl:w-[380px] w-[310px] h-[249px]  xl:h-[276px] 2xl:h-[352px] object-cover mainCard " src={carousel2} alt="" />
+                                    <img className="2xl:w-[485px] xl:w-[380px] w-[310px] h-[249px]  xl:h-[276px] 2xl:h-[352px] object-cover mainCard newsCardImg rounded-[6px] " src={carousel2} alt="" />
                                     <h3 className="2xl:text-[25px] xl:text-[20px] text-[12px] leading-[17px] xl:leading-[28px] 2xl:leading-[28px] font-bold 2xl:pt-[35px] xl:pt-[20px] pt-[15px] xl:pb-[15px] xl:pl-[15px] pl-[10px] 2xl:pb-[25px] 2xl:pl-[20px] pb-[15px] cardMainText" style={customFontStyle}>Eight Selected for the Minnesota Young American Leaders Program</h3>
                                     <h4 className="2xl:text-[25px] xl:text-[18px] text-[12px] leading-[13px] xl:leading-[25px] 2xl:leading-[30px] font-normal text-justify  2xl:px-[20px] xl:px-[15px] px-[10px] text-[#7B7882] cardPara" style={poppinsFontStyle}>(KNSI) — Eight young professionals from around the St. Cloud area have been selected for the 2023</h4>
                                     <div className="2xl:pb-[28px] xl:pb-[15px] pb-[13.26px] 2xl:pt-[47px] xl:pt-[30px] pt-[104px] cardTop">
@@ -270,7 +270,7 @@ export default function NewsMain() {
                                 </style>
 
                                 <div className="2xl:w-[485px] xl:w-[380px] newCardGap 2xl:mb-[70px] xl:mb-[57px] 2xl:mr-[82px] xl:mr-[65px] cardGap cardGapRight  shadow-lg ">
-                                    <img className="2xl:w-[485px] xl:w-[380px] w-[310px] h-[249px]  xl:h-[276px] 2xl:h-[352px] object-cover mainCard " src={carousel3} alt="" />
+                                    <img className="2xl:w-[485px] xl:w-[380px] w-[310px] h-[249px]  xl:h-[276px] 2xl:h-[352px] object-cover mainCard newsCardImg rounded-[6px]" src={carousel3} alt="" />
                                     <h3 className="2xl:text-[25px] xl:text-[20px] text-[12px] leading-[17px] xl:leading-[28px] 2xl:leading-[28px] font-bold 2xl:pt-[35px] xl:pt-[20px] pt-[15px] xl:pb-[15px] xl:pl-[15px] pl-[10px] 2xl:pb-[25px] 2xl:pl-[20px] pb-[15px] cardMainText" style={customFontStyle}>Rural Minnesota facing child-care deserts as pandemic makes bad situation worse</h3>
                                     <h4 className="2xl:text-[25px] xl:text-[18px] text-[12px] leading-[13px] xl:leading-[25px] 2xl:leading-[30px] font-normal text-justify  2xl:px-[20px] xl:px-[15px] px-[10px] text-[#7B7882] cardPara" style={poppinsFontStyle}>In recent months, Daisane’s Blooming Kids Child Care Center in St. Cloud has averaged about 30.</h4>
                                     <div className="2xl:pb-[28px] xl:pb-[15px] pb-[13.26px] 2xl:pt-[47px] xl:pt-[30px] pt-[104px] cardTop">

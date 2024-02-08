@@ -238,3 +238,117 @@ input {
     line-height: 22.5px;
   }
 }
+
+/* minimum screen size 360 px and max-width 420 px*/
+@media only screen and (min-width: 360px) and (max-width: 420px) {
+  @media only screen and (min-width: 360px) and (max-width: 420px) {
+    .footer-container {
+      /* background-color: red; */
+      padding-left: 25px;
+      padding-right: 25px;
+      /* border: 2px solid red; */
+    }
+    .footer-sub-container {
+      display: flex;
+      flex-direction: column;
+      width: full;
+      /* border: 2px solid red; */
+    }
+    .phone-number {
+      font-size: 11px;
+    }
+    .phone-icon {
+      width: 13.77px;
+      height: 14.48px;
+    }
+    .email-icon {
+      width: 13.77px;
+      height: 14.48px;
+    }
+    .daisane-logo {
+      /* position: relative; */
+      /* border: 2px solid red; */
+      /* top: -1000px; */
+      /* margin-top: 60px; */
+      margin-bottom: 25px;
+      width: 71px;
+      height: 25px;
+    }
+    .middle-div {
+      margin-top: 0;
+      padding-bottom: 0;
+      margin-bottom: 25px;
+    }
+    .left-div {
+      /* border: 2px solid red; */
+      margin-bottom: 25px;
+    }
+    .last-div {
+      /* position: relative; */
+      /* top: 20px; */
+      /* width: 126px; */
+      /* margin: 20px; */
+    }
+    .last-div {
+      margin-top: 0;
+      /* border: 2px solid red; */
+    }
+    .paid-for {
+      font-size: 12px;
+      font-weight: bold;
+      /* position: relative; */
+      /* margin-top: 100; */
+    }
+    .paid-for-line {
+      display: flex;
+      justify-content: start;
+      width: 83px;
+    }
+    .home-link,
+    .priorities-link,
+    .endorsements-link,
+    .news-link,
+    .privacy-link,
+    .condition-link {
+      margin-bottom: 0;
+    }
+
+    .social-media {
+      font-size: 12px;
+      font-weight: bold;
+      display: flex;
+      justify-content: start;
+      /* padding-top: 0; */
+      /* border: 2px solid red; */
+      margin-top: 10px;
+    }
+    .social-media-icon {
+      margin-bottom: 0;
+      /* border: 2px solid red; */
+      padding-bottom: 25px;
+      display: flex;
+      justify-content: flex-start;
+      /* border: 2px solid red; */
+    }
+
+    .copyright-link {
+      font-size: 12px;
+    }
+    .copyright-container {
+      /* width: full; */
+      /* border: 2px solid red; */
+      padding-top: 25px;
+      padding-bottom: 50px;
+      /* padding-bottom: 25px; */
+      /* padding-bottom: 60px; */
+    }
+    .copyright {
+      /* margin-bottom: 0; */
+      font-size: 12px;
+      display: inline-block;
+      padding-bottom: 0;
+
+      /* font-weight: bold; */
+    }
+  }
+}
