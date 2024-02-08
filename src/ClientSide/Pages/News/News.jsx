@@ -1,17 +1,17 @@
-import line1 from '../../../assets/images/news/line1.png';
-import person from '../../../assets/images/news/person.png';
+
 import fb from "/fb.png"
 import x from "/x.png"
 import linkedin from "/linkedin.png"
 
 import hero from '/hero1.png';
-import './News.css';
+// import './News.css';
 // import Carousel from './NewsCarousel ';
 // import NewsCarousel from './NewsCarousel';
 import { Link } from 'react-router-dom';
 import "./newsHero.css"
-import Sweaper from './Sweaper';
-import SweaperMobile from './SweaperMobile';
+import Campaign from "./Campaign";
+import NewsMain from "./NewsMain";
+
 
 const News = () => {
     let screenWidth = screen.width;
@@ -21,9 +21,8 @@ const News = () => {
     };
 
     return (
-        <div className=' mb-[250px]'>
-            {/* endrosments */}
-
+        <div >
+           
             <div>
                 <style>
                     {`
@@ -51,90 +50,9 @@ const News = () => {
 
                 </div>
             </div>
-            {/* /////////////////// */}
 
-
-
-            <div className='news-under-hero-div px-[150px]'>
-                <img className='line-1' src={line1} alt="" />
-                <div className='second-div py-[60px] flex justify-center items-center'>
-                    <div>
-                        <img className='person-1' src={person} alt="" />
-                    </div>
-                    <div className='address-div ml-[96px] text-black'>
-                        <h5 className='title font-bold text-[40px] mb-[35px]'>Campaign kickoff for Abdi Daisane for Minnesota House 14A</h5>
-                        <h5 className='address text-black text-[25px] mb-[8px]'><span className='font-bold'>Address:</span> Capital Event Center at 3123
-                            Roosevelt Rd,
-                            St. Cloud 56301.</h5>
-                        {/* <div className=''>
-                            <div>
-                                <h5 className='address text-black text-[25px] mb-[8px] font-bold'>Address : </h5>
-                            </div>
-                            <div>
-                                <h5 className='address text-black text-[25px] mb-[8px'>Capital Event Center at 3123
-                                    Roosevelt Rd,
-                                    St. Cloud 56301.</h5>
-                            </div>
-                        </div> */}
-                        <h5 className='address text-black text-[25px] mb-[8px]'><span className='font-bold'>Date:</span> Jan 5th,2024</h5>
-                        <h5 className='address text-black text-[25px]'><span className='font-bold'>Time:</span> 6:00 Pm</h5>
-                    </div>
-                </div>
-                <img className='line-2 mb-[250px]' src={line1} alt="" />
-                <div>
-                    <h5 className='news-title mb-[100px] text-[#12225D] font-bold text-[80px] flex justify-center'>News</h5>
-                    {/* <Carousel></Carousel> */}
-                    {
-                        (screenWidth >= 820) ? <Sweaper></Sweaper> : <SweaperMobile></SweaperMobile>
-                    }
-                    {/* card */}
-                    {/* <div className='flex'> */}
-                    {/* card 1 */}
-                    {/* <div className="card mr-[83px] w-[485px] h-[660px] bg-base-100 shadow-xl">
-                            <figure><img className='mb-[35px] object-cover' src={person2} alt="Shoes" /></figure>
-                            <div className="card-body">
-                                <h5 className='title-2 mb-[25px] font-bold text-[25px]'>Abdi Daisane: Entrepreneurial work for the community good</h5>
-                                <h5 className='title-3 mb-[54px] text-[#7B7882] font-normal text-[25px]'>Abdi Daisane came to St. Cloud to finish his education. Since then, he’s been paying it forward.</h5>
-                                <div className="card-actions justify-start">
-                                    <div className="badge">READ MORE</div>
-                                </div>
-                            </div>
-                        </div> */}
-                    {/* card 2 */}
-                    {/* <div className="card mr-[83px] w-[485px] h-[660px] bg-base-100 shadow-xl">
-                        <figure><img className='mb-[35px] object-fill' src={person3} alt="Shoes" /></figure>
-                        <div className="card-body">
-                            <h5 className='title-2 mb-[25px] font-bold text-[25px]'>Abdi Daisane: Entrepreneurial work for the community good</h5>
-                            <h5 className='title-3 mb-[54px] text-[#7B7882] text-[25px]'>Abdi Daisane came to St. Cloud to finish his education. Since then, he’s been paying it forward.</h5>
-                            <div className="card-actions justify-start">
-                                <div className="badge">READ MORE</div>
-                            </div>
-                        </div>
-                    </div> */}
-                    {/* card 3 */}
-                    {/* <div className="card w-[485px] h-[660px] bg-base-100 shadow-xl">
-                            <figure><img className='mb-[35px] h-[352px]' src={person4} alt="Shoes" /></figure>
-                            <div className="card-body">
-                                <h5 className='title-2 mb-[25px] font-bold text-[25px]'>Abdi Daisane: Entrepreneurial work for the community good</h5>
-                                <h5 className='title-3 mb-[54px] text-[#7B7882] text-[25px]'>Abdi Daisane came to St. Cloud to finish his education. Since then, he’s been paying it forward.</h5>
-                                <div className="card-actions justify-start">
-                                    <div className="badge">READ MORE</div>
-                                </div>
-                            </div>
-                        </div> */}
-                    {/* </div> */}
-                </div>
-            </div>
-
-
-
-
-
-
-
-
-
-
+            <Campaign></Campaign>
+            <NewsMain></NewsMain>
 
         </div>
     );

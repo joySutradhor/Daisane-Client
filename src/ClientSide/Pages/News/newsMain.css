@@ -1,0 +1,30 @@
+@media only screen and (min-width: 1440px) and (max-width: 1469px) {
+   .cardGap {
+    margin-right: 50px;
+   }
+}
+@media only screen and (min-width: 1366px) and (max-width: 1439px) {
+    .mainCard{
+        width: 343px;
+        height: 276px;
+    }
+   .cardGapRight {
+    margin-right: 69px;
+   }
+   .cardMainText{
+    font-size: 18px;
+    line-height: 25px;
+    padding-right: 15px;
+   }
+   .cardPara {
+    font-size: 18px;
+    line-height: 25px;
+   }
+   .newCardGap{
+    width: 
+    343px;
+   }
+   .cardTop {
+    margin-top: 20px;
+   }
+}
