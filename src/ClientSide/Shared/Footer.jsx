@@ -11,7 +11,7 @@ import linkedin from '../../assets/images/footer/linkedin.png';
 
 import { Link } from "react-router-dom";
 
-import SecondaryFooter from "./SecondaryFooter";
+
 
 const Footer = () => {
     const email = 'daisaneformn@gmail.com';
@@ -25,7 +25,7 @@ const Footer = () => {
     return (
         <div className="">
             {/* make a donation */}
-            <SecondaryFooter></SecondaryFooter>
+            
             {/* footer bottom */}
             <div className="bg-[#12225D] ">
                 <style> {`
