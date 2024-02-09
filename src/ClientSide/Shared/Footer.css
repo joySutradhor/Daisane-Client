@@ -144,7 +144,7 @@ input {
 /* responsive  */
 /* minimum screen size 1370 px and max-width 1439 px*/
 
-@media only screen and (min-width: 1370px) and (max-width: 1439px) {
+@media only screen and (min-width: 1366px) and (max-width: 1535px) {
   .footer-container {
     /* background-color: green; */
     padding-left: 100px;
@@ -351,4 +351,14 @@ input {
       /* font-weight: bold; */
     }
   }
+
+
+}
+
+@media only screen and (min-width: 414px) and (max-width: 767px) {
+  .FooterMainSpace {
+      padding-left: 35px;
+      padding-right: 35px;
+  }
+  
 }

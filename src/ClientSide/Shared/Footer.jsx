@@ -9,7 +9,8 @@ import linkedin from '../../assets/images/footer/linkedin.png';
 // import google from '../../assets/images/footer/google.png';
 import line from '../../assets/images/footer/line.png';
 import { Link } from "react-router-dom";
-import SubFooter from "./SubFooter";
+// import SubFooter from "./SubFooter";
+import SecondaryFooter from "./SecondaryFooter";
 
 const Footer = () => {
     const email = 'daisaneformn@gmail.com';
@@ -20,10 +21,10 @@ const Footer = () => {
     return (
         <div className="">
             {/* make a donation */}
-            {/* <SubFooter></SubFooter> */}
+            <SecondaryFooter></SecondaryFooter>
             {/* footer bottom */}
-            <div className="footer-container bg-[#122362] px-[150px]">
-                <div className="footer-sub-container flex justify-between ">
+            <div className="footer-container FooterMainSpace bg-[#122362] ">
+                <div className="footer-sub-container flex justify-between  ">
                     <div className="left-div mt-[100px] ">
                         <img className="daisane-logo h-[102px] w-[303px] mb-[49px] " src={footerLogo} alt="logo missign" />
                         {/* <img className="daisane-logo h-[102px] w-[303px] mb-[49px]" src={logo} alt="logo missign" /> */}
@@ -71,7 +72,7 @@ const Footer = () => {
                 </div>
 
                 <div className="copyright-container flex items-center justify-center pt-[100px] pb-[100px]">
-                    <h5 className="copyright text-[#F5F5F5]">Designed and Developed by Fowzi Media. Copyright © Daisane For State Representative. All rights reserved.</h5>
+                    <h5 className="copyright text-[#F5F5F5]">Designed and Developed by <span className="border-b-[1px] cursor-pointer"><Link to="https://www.fowzimedia.com/" target="_blank">Fowzi Media.</Link></span> Copyright © Daisane For State Representative. All rights reserved.</h5>
                 </div>
             </div>
 
