@@ -1,4 +1,5 @@
 import hero1 from "/heroNew.png"
+import heroOne from "/heroOne.png"
 import fb from "/fb.png"
 import x from "/x.png"
 import linkedin from "/linkedin.png"
@@ -26,13 +27,13 @@ const HeroSeciton = () => {
                         <div className="xl:w-[289px] w-[80px] bg-[#D9D9D9] flex 2xl:mt-[176px] xl:mt-[149px] mt-[34px]  xl:rounded-t-[24px] rounded-t-[10px]  heroTexBottom" >
                             <div className="flex xl:py-[22.5px] py-[5.64px] ">
                                 <Link to="https://www.facebook.com/ahdaisane?mibextid=LQQJ4d" target="_blank"><img className="xl:ml-[41px] ml-[14.36px]  mr-[10.3px] xl:mr-[39.13px] xl:h-[41.18px] xl:w-[41.18px] h-[10.56px] w-[10.56px]" src={fb} alt="" /></Link>
-                                <img className="xl:mr-[37.29px] xl:h-[41.18px] xl:w-[41.18px] h-[10.56px] w-[10.56px] mr-[9.56px] " src={x} alt="" />
-                                <img className="xl:mr-[48.04px] xl:h-[41.18px] xl:w-[41.18px] h-[10.56px] w-[10.56px] mr-[14.37px] " src={linkedin} alt="" />
+                                <Link to= "https://twitter.com/AbdiFor14A/status/1616890753187291137" target="_blank"><img className="xl:mr-[37.29px] xl:h-[41.18px] xl:w-[41.18px] h-[10.56px] w-[10.56px] mr-[9.56px] " src={x} alt="x icon" /></Link>
+                                <Link to="https://www.linkedin.com/in/abdidaisane/" target="_blank"><img className="xl:mr-[48.04px] xl:h-[41.18px] xl:w-[41.18px] h-[10.56px] w-[10.56px] mr-[14.37px] " src={linkedin} alt="linkedin icon" /></Link>
 
                             </div>
                         </div>
                     </div>
-                    <img className=" 2xl:w-[779px] 2xl:h-[855px] xl:w-[681px] xl:h-[745px] w-[171px]  mt-[3px] xl:mt-[39px]  2xl:mt-[33px]  object-cover pr-[12px] xl:pr-[48px] 2xl:pr-0 heroImg " src={hero1} alt="daisane hero image" />
+                    <img className=" 2xl:w-[779px] 2xl:h-[855px] xl:w-[681px] xl:h-[745px] w-[171px]  mt-[3px] xl:mt-[39px]  2xl:mt-[33px]  object-cover pr-[12px] xl:pr-[48px] 2xl:pr-0 heroImg " src={heroOne} alt="daisane hero image" />
                 </div>
 
             </div>

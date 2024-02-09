@@ -1,4 +1,12 @@
-
+@media only screen and (max-width: 359px) {
+  .main-container {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .main-heading-title {
+    font-size: 36px;
+  }
+}
 
 @media only screen and (min-width: 360px) and (max-width: 420px) {
   .main-container {
@@ -7,5 +15,28 @@
   }
   .main-heading-title {
     font-size: 36px;
+  }
+}
+
+@media only screen and (min-width: 421px) and (max-width: 600px) {
+  .main-container {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+
+
+
+@media only screen and (min-width: 1366px) and (max-width: 1439px) {
+  .main-container {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1480px) {
+  .main-container {
+    padding-left: 100px;
+    padding-right: 100px;
   }
 }

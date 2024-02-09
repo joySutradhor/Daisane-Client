@@ -37,11 +37,11 @@
 
   /* footer style  */
   .mainFooterSubHeading {
-    @apply 2xl:text-[25px] 2xl:leading-[37.5px] text-white xl:mb-[15px] font-bold tracking-[0.69px] xl:text-[20px] xl:leading-[29.64px]
+    @apply 2xl:text-[25px] 2xl:leading-[37.5px] text-white xl:mb-[15px] mb-[10px] font-bold tracking-[0.69px] xl:text-[20px] text-[12px] leading-[12px] xl:leading-[29.64px] 
   }
 
   .footerLinkText{
-    @apply xl:text-[18px] 2xl:leading-[27px] xl:leading-[21px] text-[#F5F5F5]
+    @apply xl:text-[18px] 2xl:leading-[27px] xl:leading-[21px] text-[12px] leading-[12px] text-[#F5F5F5]
   }
   
 

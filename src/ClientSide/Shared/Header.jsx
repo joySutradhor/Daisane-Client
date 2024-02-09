@@ -29,8 +29,8 @@ const Header = () => {
           @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap')
         `}
                 </style>
-                <div className="flex items-center justify-between  ">
-                    <img className="Headerlogo topLogo " src={logo} alt="Daisane Logo" />
+                <div className="flex items-center justify-between ">
+                    <Link to="/"><img className="Headerlogo topLogo " src={logo} alt="Daisane Logo" /></Link>
                     <div className="flex xl:mx-[140px] 2xl:mx-[250px]  menu menuSize" style={poppinsFontStyle}>
                         <Link to="/" className="2xl:mr-[70px] xl:mr-[40px] font-bold text-[20px] menuGap menuSize">Home</Link>
                         <Link to="/priorities" className="2xl:mr-[70px] xl:mr-[40px] font-bold text-[20px] menuGap menuSize">Prioritites</Link>

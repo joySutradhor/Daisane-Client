@@ -1,12 +1,26 @@
 @media only screen and (min-width: 1440px) and (max-width: 1469px) {
   .leftSpace {
-     margin-right: 207px;
+    margin-right: 207px;
   }
-  
+
 }
+
 @media only screen and (min-width: 1366px) and (max-width: 1439px) {
   .leftSideSpace {
-     margin-right: 132px;
+    margin-right: 132px;
   }
-  
+
+}
+
+@media only screen and (min-width: 414px) and (max-width: 767px) {
+  .LeftRightSpcaing {
+    margin-left: 35px;
+    margin-right: 35px;
+  }
+
+  .copyrightText {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+
 }
