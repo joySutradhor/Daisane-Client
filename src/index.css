@@ -21,9 +21,7 @@
   .footerHeading {
     @apply 2xl:font-bold 2xl:text-[25px] 2xl:text-white 
   }
-  .footerLinkText{
-    @apply 2xl:text-[18px] text-[#F5F5F5]
-  }
+  
   .secondaryBtn {
       @apply 2xl:py-[21px] 2xl:px-[36px] xl:py-[16px] xl:px-[23px] py-[4px] px-[10px] rounded-[3px] xl:rounded-[6px] text-white border border-white  xl:text-[20px] text-[11px] xl:leading-[20px] font-bold
   }
@@ -36,6 +34,17 @@
   .secondarySideText {
     @apply 2xl:text-[25px] xl:text-[20px] text-[12px] leading-[20px]  xl:leading-[20px] font-bold text-white 2xl:mb-[35px] xl:mb-[25px] mb-[10px]
   }
+
+  /* footer style  */
+  .mainFooterSubHeading {
+    @apply 2xl:text-[25px] 2xl:leading-[37.5px] text-white xl:mb-[15px] font-bold tracking-[0.69px] xl:text-[20px] xl:leading-[29.64px]
+  }
+
+  .footerLinkText{
+    @apply xl:text-[18px] 2xl:leading-[27px] xl:leading-[21px] text-[#F5F5F5]
+  }
+  
+
   
 }
 

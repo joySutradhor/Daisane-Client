@@ -22,7 +22,7 @@ const SecondaryFooter = () => {
                     <h4 className="secondarayHeadText" style={customFontStyle}>Make a donation today!</h4>
                 </div>
                 <div className="2xl:ml-[179px] xl:ml-[113px]">
-                    <h4 className="secondarySideText" style={poppinsFontStyle}>Select amount (in us dollar)</h4>
+                    <h4 className="secondarySideText" style={poppinsFontStyle}>Select amount (in US Dollar)</h4>
                     <Link to="https://secure.actblue.com/donate/daisaneformn?amount=25" target="_blank"> <button className="secondaryBtn 2xl:mr-[15px] xl:mr-[10px] mr-[3px] ">$ 25</button></Link>
                     <Link to="https://secure.actblue.com/donate/daisaneformn?amount=50" target="_blank"> <button className="secondaryBtn 2xl:mr-[15px] xl:mr-[10px] mr-[3px]">$ 50</button></Link>
                     <Link to="https://secure.actblue.com/donate/daisaneformn?amount=100" target="_blank"> <button className="secondaryBtn 2xl:mr-[15px] xl:mr-[10px] mr-[3px]">$ 100</button></Link>

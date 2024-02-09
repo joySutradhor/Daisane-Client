@@ -12,6 +12,8 @@ import Home from './ClientSide/Pages/Home/Home';
 import EndrosmentHome from './ClientSide/Pages/Endorsements/EndrosmentHome';
 import Priorities from './ClientSide/Pages/Prioritites/Prioties';
 import News from './ClientSide/Pages/News/News';
+import TermsOfService from './ClientSide/Pages/TermsOfService/TermsOfService';
+import PrivacyPolicy from './ClientSide/Pages/PrivacyAndPolicy/PrivacyPolicy';
 
 //  Create a root element 
 const router = createBrowserRouter([
@@ -38,6 +40,16 @@ const router = createBrowserRouter([
       {
         path : "/news" ,
         element : <News></News>
+      },
+      {
+        // TERMS OF SERVICE
+        path: "/terms-of-service",
+        element: <TermsOfService></TermsOfService>
+      },
+      {
+        // TERMS OF SERVICE
+        path: "/privacy-policy",
+        element: <PrivacyPolicy></PrivacyPolicy>
       }
 
 

@@ -1,0 +1,11 @@
+
+
+@media only screen and (min-width: 360px) and (max-width: 420px) {
+  .main-container {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .main-heading-title {
+    font-size: 36px;
+  }
+}

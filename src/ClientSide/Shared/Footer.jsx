@@ -3,77 +3,71 @@ import footerLogo from "/footerLogo.png"
 // import abdiDaisane2 from '../../assets/images/footer/abdiDaisane.png';
 import phone from '../../assets/images/footer/phone.png';
 import emailIcon from '../../assets/images/footer/email.png';
+import arrow from "/arrow.png"
 import x from '../../assets/images/footer/x.png';
 import facebook from '../../assets/images/footer/facebook.png';
 import linkedin from '../../assets/images/footer/linkedin.png';
-// import google from '../../assets/images/footer/google.png';
-import line from '../../assets/images/footer/line.png';
+
+
 import { Link } from "react-router-dom";
-// import SubFooter from "./SubFooter";
+
 import SecondaryFooter from "./SecondaryFooter";
 
 const Footer = () => {
     const email = 'daisaneformn@gmail.com';
 
-    let width = screen.width;
-    console.log('screen with is ', width)
-
+    const customFontStyle = {
+        fontFamily: "'Oswald', sans-serif",
+    };
+    const poppinsFontStyle = {
+        fontFamily: "'Poppins', sans-serif",
+    };
     return (
         <div className="">
             {/* make a donation */}
             <SecondaryFooter></SecondaryFooter>
             {/* footer bottom */}
-            <div className="footer-container FooterMainSpace bg-[#122362] ">
-                <div className="footer-sub-container flex justify-between  ">
-                    <div className="left-div mt-[100px] ">
-                        <img className="daisane-logo h-[102px] w-[303px] mb-[49px] " src={footerLogo} alt="logo missign" />
-                        {/* <img className="daisane-logo h-[102px] w-[303px] mb-[49px]" src={logo} alt="logo missign" /> */}
-                        {/* <img className="daisane-logo h-[102px] w-[303px] mb-[49px]" src={abdiDaisane2} alt="" /> */}
-                        <h5 className="our-office text-white text-[25px] leading-[37px] font-bold	 mb-[25.43px]">Our Office</h5>
-                        <h5 className="po-box  font-light text-lg text-[#D5D5D6] mb-[50px]">PO BOX 2354, Saint Cloud, MN 56302</h5>
-
-                        <h5 className="phone-number text-[#D5D5D6]  leading-[27px] text-lg mb-[19px]"><img className="phone-icon inline w-[27.87px] h-[27.87px] mr-4" src={phone} alt="" /> 320-223-4902
-                        </h5>
-
-                        <h5 className="phone-number text-[#D5D5D6]   leading-[27px] text-lg"><img className="email-icon inline w-[30px] h-[25px] mr-[15.5px]" src={emailIcon} alt="" /> <a href={`mailto:${email}`}>
-                            <span>{email}</span>
-                        </a></h5>
-                        {/* <h5 className="underline-transparent hover:underline underline-offset-[3px] ">
-                        <img className="inline w-[30px] h-[25px] mr-[15.5px]" src={emailIcon} alt="" />
-                        <a href={`mailto:${email}`}>
-                            <span>{email}</span>
-                        </a>
-                    </h5> */}
-
+            <div className="bg-[#12225D] ">
+                <style> {`
+                    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+                    @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap') `}
+                </style>
+                <div className="lR 2xl:py-[100px] xl:py-[50px]">
+                    <div className="">
+                        <img className="2xl:w-[275px] 2xl:h-[101px] xl:w-[225px] xl:h-[83.27px]  object-cover xl:mb-[50px]" src={footerLogo} alt="footerLogo" />
                     </div>
-                    <div className="middle-div pt-0 mt-[246px] ">
-                        <h2 className="link-title text-white text-[25px] mb-[13.34px] ">Links</h2>
-                        <div className="copyright-link  flex flex-col text-lg text-[#D5D5D6]">
-                            <Link to='/' className="home-link font-light mb-3"> {">"} <span className="ml-[15px]  "> Home</span></Link>
-                            <Link to='/priorities' className="priorities-link font-light mb-3"> {">"} <span className="ml-[15px] ">  Priorities</span></Link>
-                            <Link to='/endorsements' className="endorsements-link font-light mb-3"> {">"} <span className="ml-[15px] ">  Endorsements</span></Link>
-                            <Link to='/news' className="news-link font-light mb-3"> {">"} <span className="ml-[15px] ">  Events</span></Link>
-                            <Link to='/priorities' className="privacy-link font-light mb-3"> {">"} <span className="ml-[15px] ">  Privacy</span> & Policy</Link>
-                            <Link to='/priorities' className="condition-link font-light mb-3"> {">"} <span className="ml-[15px] ">  Terms</span> & Conditions</Link>
+                    <div className="flex">
+                        <div className="2xl:mr-[343px] xl:mr-[237px] leftSpace leftSideSpace">
+                            <h4 className="mainFooterSubHeading" style={customFontStyle}>Our Office</h4>
+                            <h6 className="footerLinkText  xl:mb-[50px]" style={poppinsFontStyle}>PO BOX 2354, Saint Cloud, MN 56302</h6>
+                            <h6 className="flex  items-center footerLinkText xl:mb-[20px] " style={poppinsFontStyle}><span><img className="2xl:h-[27px] 2xl:w-[27px] xl:mr-[15px]" src={phone} alt="phoneIcon" /></span>320-223-4902</h6>
+                            <h6 className="flex  items-center footerLinkText " style={poppinsFontStyle}><span><img className="2xl:h-[25px] 2xl:w-[30px] xl:mr-[15px]" src={emailIcon} alt="phoneIcon" /></span>daisaneformn@gmail.com</h6>
                         </div>
-                    </div>
-                    <div className="last-div pt-0 mt-[246px]  ">
-                        <h2 className="paid-for  text-white text-[40px] mb-[25px]">Paid for by Daisane for MN</h2>
-                        <div className="paid-for-line flex justify-end  mb-[60px]">
-                            <img className="" src={line} alt="" />
+                        <div className="2xl:mr-[300px] xl:mr-[59px]  " >
+                            <h4 className="mainFooterSubHeading" style={customFontStyle}>Links</h4>
+                            <p className="flex items-center footerLinkText xl:mb-[12px]" style={poppinsFontStyle}> <span><img className=" 2xl:h-[10px] 2xl:w-[4px] xl:mr-[15px]" src={arrow} alt="arrow sign" /></span>Home</p>
+                            <p className="flex items-center footerLinkText xl:mb-[12px] " style={poppinsFontStyle}> <span><img className=" 2xl:h-[10px] 2xl:w-[4px] xl:mr-[15px]" src={arrow} alt="arrow sign" /></span>Prioritites</p>
+                            <p className="flex items-center footerLinkText xl:mb-[12px]" style={poppinsFontStyle}> <span><img className=" 2xl:h-[10px] 2xl:w-[4px] xl:mr-[15px]" src={arrow} alt="arrow sign" /></span>Endorsements</p>
+                            <p className="flex items-center footerLinkText xl:mb-[12px] " style={poppinsFontStyle}> <span><img className=" 2xl:h-[10px] 2xl:w-[4px] xl:mr-[15px]" src={arrow} alt="arrow sign" /></span>Events</p>
+                            <Link to="/privacy-policy">
+                                <p className="flex items-center footerLinkText xl:mb-[12px]" style={poppinsFontStyle}> <span><img className=" 2xl:h-[10px] 2xl:w-[4px] xl:mr-[15px]" src={arrow} alt="arrow sign" /></span>Privacy & Policy</p>
+                            </Link>
+                            <Link to="/terms-of-service">
+                                <p className="flex items-center footerLinkText " style={poppinsFontStyle}> <span><img className=" 2xl:h-[10px] 2xl:w-[4px] xl:mr-[15px]" src={arrow} alt="arrow sign" /></span>Terms and Conditions</p>
+                            </Link>
                         </div>
-                        <p className="social-media flex justify-end  text-white leading-[37.05px] text-[25px] font-bold mb-[25px]">Our Social Media</p>
-                        <div className="social-media-icon flex justify-end">
-                            <Link to='https://web.facebook.com/ahdaisane/?_rdc=1&_rdr' target="_blank"><img className="fb-icon pr-10" src={facebook} alt="" /></Link>
-                            <Link to='https://twitter.com/AbdiFor14A/status/1616890753187291137' target="_blank"><img className="x-icon pr-10" src={x} alt="" /></Link>
-                            <Link to='https://www.linkedin.com/in/abdidaisane/' target="_blank"><img className="in-icon" src={linkedin} alt="" /></Link>
+                        <div>
+                            <h4 className="xl:text-[40px] xl:leading-[50px] text-white border-b-[4px] border-white text-right xl:pb-[25px] " style={customFontStyle}>Paid for by Daisane for MN</h4>
+                            <h3 className="xl:mt-[60px] xl:text-[25px] 2xl:tracking-[0.69px] text-right text-white xl:leading-[37.5px] xl:pb-[25px] " style={customFontStyle}>Our Social Media</h3>
+                            <div className="flex justify-end ">
+                                <img className="2xl:h-[41.18px] 2xl:w-[41.18px] xl:mr-[37px]" src={facebook} alt="fbsocail" />
+                                <img className="2xl:h-[41.18px] 2xl:w-[41.18px] xl:mr-[37px]" src={x} alt="x icon" />
+                                <img className="2xl:h-[41.18px] 2xl:w-[41.18px]" src={linkedin} alt="linkedin icon" />
+                            </div>
                         </div>
                     </div>
                 </div>
-
-                <div className="copyright-container flex items-center justify-center pt-[100px] pb-[100px]">
-                    <h5 className="copyright text-[#F5F5F5]">Designed and Developed by <span className="border-b-[1px] cursor-pointer"><Link to="https://www.fowzimedia.com/" target="_blank">Fowzi Media.</Link></span> Copyright © Daisane For State Representative. All rights reserved.</h5>
-                </div>
+                <h4 className="text-center xl:text-[20px] 2xl:leading-[30px] xl:pb-[50px] 2xl:pb-[100px] text-[#F5F5F5]">Designed and Developed by <span className="border-b-[1px] "><Link to="https://www.fowzimedia.com/" target="_blank">Fowzi Media.</Link></span> Copyright © Daisane For State Representative. All rights reserved.</h4>
             </div>
 
         </div>
