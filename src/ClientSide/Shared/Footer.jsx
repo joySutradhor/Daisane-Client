@@ -37,7 +37,7 @@ const Footer = () => {
                         <Link to="/"><img className="2xl:w-[275px] 2xl:h-[101px] xl:w-[225px] xl:h-[83.27px] w-[71px] h-[25.82px]  object-cover xl:mb-[50px]" src={footerLogo} alt="footerLogo" /></Link>
                     </div>
                     <div className="xl:flex">
-                        <div className="2xl:mr-[343px] xl:mr-[237px] leftSpace leftSideSpace">
+                        <div className="2xl:mr-[343px] xl:mr-[237px] leftSpace leftSideSpace leftSideSpacing">
                             <h4 className="mainFooterSubHeading xl:mt-0 mt-[25px]" style={customFontStyle}>Our Office</h4>
                             <h6 className="footerLinkText mb-[18px]  xl:mb-[50px]" style={poppinsFontStyle}>PO BOX 2354, Saint Cloud, MN 56302</h6>
                             <h6 className="flex  items-center footerLinkText xl:mb-[20px] mb-[10px] " style={poppinsFontStyle}><span><img className="xl:h-[27px] xl:w-[27px] xl:mr-[15px] mr-[10px] w-[13.77px] h-[14.48px]" src={phone} alt="phoneIcon" /></span>320-223-4902</h6>

@@ -5,9 +5,15 @@
 
 }
 
-@media only screen and (min-width: 1366px) and (max-width: 1439px) {
+@media only screen and (min-width: 1366px) and (max-width: 1400px) {
   .leftSideSpace {
-    margin-right: 132px;
+    margin-right: 100px;
+  }
+
+}
+@media only screen and (min-width: 1401px) and (max-width: 1439px) {
+  .leftSideSpacing {
+    margin-right: 198px;
   }
 
 }
