@@ -29,7 +29,7 @@ const Campaign = () => {
                     <h4 className="2xl:text-[25px] xl:text-[20px] text-[14px] leading-[18px] 2xl:leading-[37.5px] 2xl:mb-[8px] xl:mb-[10px] mb-[10px]" style={poppinsFontStyle}><span className="font-bold 2xl:text-[25px] text-[14px] xl:text-[20px] 2xl:leading-[37.5px] mainh2" style={poppinsFontStyle}>Date : </span>Jan 5th, 2024</h4>
                     <h4 className="2xl:text-[25px] xl:text-[20px] mb-[15px] xl:mb-[50px] 2xl:mb-[50px] text-[14px] leading-[18px] 2xl:leading-[37.5px]" style={poppinsFontStyle}><span className="font-bold 2xl:text-[25px] xl:text-[20px] 2xl:leading-[37.5px]" style={poppinsFontStyle}>Time : </span>6:00 Pm</h4>
 
-                    <Link to="https://www.facebook.com/Xidigtv/posts/pfbid0Tnvgpj7VeaCxYvirpnVE3ujWK2qq8etBQEWtgVRTBCfG54dqWcL3tTBBwVRuCLgFl" target="_blank"><button className="xl:text-[20px] text-[12px] border border-white-[1px] xl:px-6 xl:py-2 px-4 py-1 xl:mb-auto mb-[15px] bg-[#12225D] text-white rounded-[3px]" style={poppinsFontStyle}>View Gallery</button></Link>
+                    <Link to="https://www.facebook.com/Xidigtv/posts/pfbid0Tnvgpj7VeaCxYvirpnVE3ujWK2qq8etBQEWtgVRTBCfG54dqWcL3tTBBwVRuCLgFl" target="_blank"><button className="xl:text-[20px] text-[12px] border border-white-[1px] xl:px-6 xl:py-2 px-4 py-1 xl:mb-auto mb-[15px] bg-[#12225D] text-white xl:rounded-[10px] rounded-[6px]" style={poppinsFontStyle}>View Gallery</button></Link>
                 </div>
                 
             </div>
