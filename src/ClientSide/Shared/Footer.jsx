@@ -71,7 +71,7 @@ const Footer = () => {
 
                                 <Link to="https://www.facebook.com/ahdaisane/?_rdc=2&_rdr" target="_blank"> <img className="xl:h-[41.18px] xl:w-[41.18px] w-[17px] h-[17px] xl:mr-[37px] mr-[10px]" src={facebook} alt="fbsocail" /></Link>
 
-                                <Link to="https://twitter.com/AbdiFor14A/status/1616890753187291137" target="_blank"><img className="xl:h-[41.18px] xl:w-[41.18px] w-[17px] h-[17px] xl:mr-[37px] mr-[10px]" src={x} alt="x icon" /></Link>
+                                <Link to="https://twitter.com/AbdiFor14A" target="_blank"><img className="xl:h-[41.18px] xl:w-[41.18px] w-[17px] h-[17px] xl:mr-[37px] mr-[10px]" src={x} alt="x icon" /></Link>
 
                                 <Link to="https://www.linkedin.com/in/abdidaisane/" target="_blank"><img className="xl:h-[41.18px] xl:w-[41.18px] w-[17px] h-[17px] " src={linkedin} alt="linkedin icon" /></Link>
                             </div>

@@ -31,7 +31,7 @@ const Endorsements = () => {
                         <div className="xl:w-[289px] w-[80px] bg-[#D9D9D9] flex 2xl:mt-[327px] xl:mt-[304px] mt-[74px]  xl:rounded-t-[24px] rounded-t-[10px] endroSocail" >
                             <div className="flex xl:py-[22.5px] py-[5.64px] ">
                             <Link to="https://www.facebook.com/ahdaisane?mibextid=LQQJ4d" target="_blank"><img className="xl:ml-[41px] ml-[14.36px]  mr-[10.3px] xl:mr-[39.13px] xl:h-[41.18px] xl:w-[41.18px] h-[10.56px] w-[10.56px]" src={fb} alt="" /></Link>
-                                <Link to="https://twitter.com/AbdiFor14A/status/1616890753187291137" target="_blank"><img className="xl:mr-[37.29px] xl:h-[41.18px] xl:w-[41.18px] h-[10.56px] w-[10.56px] mr-[9.56px] " src={x} alt="x icon" /></Link>
+                                <Link to="https://twitter.com/AbdiFor14A" target="_blank"><img className="xl:mr-[37.29px] xl:h-[41.18px] xl:w-[41.18px] h-[10.56px] w-[10.56px] mr-[9.56px] " src={x} alt="x icon" /></Link>
                                 <Link to="https://www.linkedin.com/in/abdidaisane/" target="_blank"><img className="xl:mr-[48.04px] xl:h-[41.18px] xl:w-[41.18px] h-[10.56px] w-[10.56px] mr-[14.37px] " src={linkedin} alt="linkedin icon" /></Link>
 
                             </div>
