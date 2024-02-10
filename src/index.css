@@ -56,6 +56,6 @@
     @apply text-[#12225D] 2xl:text-[80px] 2xl:font-bold  xl:text-[55px] text-[18px]
   }
   p{
-    @apply text-[#959595] 2xl:text-[25px] text-justify xl:text-[18px] text-[12px]
+    @apply text-[#959595] 2xl:text-[25px] text-justify xl:text-[18px] text-[14px]
   }
 }

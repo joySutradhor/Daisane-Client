@@ -60,13 +60,13 @@ const PriotitesAccordian = () => {
 
                                 <p className='xl:text-[19px] 2xl:text-[25px] xl:leading-[28.5px] 2xl:leading-[37.5px] mt-[25px] font-normal text-justify text-[#959595] accordianText' style={poppinsFontStyle}>As your State Representative, I will: </p>
                                 <ul className='list-disc 2xl:pl-[22px] xl:pl-[20px] pl-[16px] '>
-                                    <li className='xl:text-[19px] 2xl:text-[25px] text-[12px] xl:leading-[28.5px] 2xl:leading-[37.5px] mt-[25px] font-normal text-justify text-[#959595] accordianText' style={poppinsFontStyle}>Advocate for an increase in state bonding dollars to augment the overall housing
+                                    <li className='xl:text-[19px] 2xl:text-[25px] text-[14px] xl:leading-[28.5px] 2xl:leading-[37.5px] mt-[25px] font-normal text-justify text-[#959595] accordianText' style={poppinsFontStyle}>Advocate for an increase in state bonding dollars to augment the overall housing
                                         investment across the state. </li>
-                                    <li className='xl:text-[19px] 2xl:text-[25px] text-[12px] xl:leading-[28.5px] 2xl:leading-[37.5px] mt-[25px] font-normal text-justify text-[#959595] accordianText' style={poppinsFontStyle}>
+                                    <li className='xl:text-[19px] 2xl:text-[25px] text-[14px] xl:leading-[28.5px] 2xl:leading-[37.5px] mt-[25px] font-normal text-justify text-[#959595] accordianText' style={poppinsFontStyle}>
                                         Collaborate with renters to ensure equitable treatment by landlords and enforce
                                         existing legal protections.
                                     </li>
-                                    <li className='xl:text-[19px] 2xl:text-[25px] text-[12px] xl:leading-[28.5px] 2xl:leading-[37.5px] mt-[25px] font-normal text-justify text-[#959595] accordianText' style={poppinsFontStyle}>
+                                    <li className='xl:text-[19px] 2xl:text-[25px] text-[14px] xl:leading-[28.5px] 2xl:leading-[37.5px] mt-[25px] font-normal text-justify text-[#959595] accordianText' style={poppinsFontStyle}>
                                         Foster more public-private partnerships to facilitate the development of additional
                                         affordable housing, coupled with the implementation of new rent control measures in
                                         Saint Cloud.
@@ -97,16 +97,16 @@ const PriotitesAccordian = () => {
                                 <p className='xl:text-[19px] 2xl:text-[25px] xl:leading-[28.5px] 2xl:leading-[37.5px] mt-[25px] font-normal text-justify text-[#959595] accordianText' style={poppinsFontStyle}>As your state representative, my commitment to education includes:
                                 </p>
                                 <ul className='list-disc 2xl:pl-[22px] xl:pl-[20px] pl-[16px] '>
-                                    <li className='xl:text-[19px] 2xl:text-[25px] text-[12px] xl:leading-[28.5px] 2xl:leading-[37.5px] mt-[25px] font-normal text-justify text-[#959595] accordianText' style={poppinsFontStyle}>Advocating for the full funding of public education in Minnesota. </li>
-                                    <li className='xl:text-[19px] 2xl:text-[25px] text-[12px] xl:leading-[28.5px] 2xl:leading-[37.5px] mt-[25px] font-normal text-justify text-[#959595] accordianText' style={poppinsFontStyle}>Increasing funding specifically dedicated to early childhood education, including the
+                                    <li className='xl:text-[19px] 2xl:text-[25px] text-[14px] xl:leading-[28.5px] 2xl:leading-[37.5px] mt-[25px] font-normal text-justify text-[#959595] accordianText' style={poppinsFontStyle}>Advocating for the full funding of public education in Minnesota. </li>
+                                    <li className='xl:text-[19px] 2xl:text-[25px] text-[14px] xl:leading-[28.5px] 2xl:leading-[37.5px] mt-[25px] font-normal text-justify text-[#959595] accordianText' style={poppinsFontStyle}>Increasing funding specifically dedicated to early childhood education, including the
                                         provision of need-based subsidies for childcare and transportation. </li>
-                                    <li className='xl:text-[19px] 2xl:text-[25px] text-[12px] xl:leading-[28.5px] 2xl:leading-[37.5px] mt-[25px] font-normal text-justify text-[#959595] accordianText' style={poppinsFontStyle}> Championing community-based and culturally competent educational programs
+                                    <li className='xl:text-[19px] 2xl:text-[25px] text-[14px] xl:leading-[28.5px] 2xl:leading-[37.5px] mt-[25px] font-normal text-justify text-[#959595] accordianText' style={poppinsFontStyle}> Championing community-based and culturally competent educational programs
                                         designed for children of all ages</li>
-                                    <li className='xl:text-[19px] 2xl:text-[25px] text-[12px] xl:leading-[28.5px] 2xl:leading-[37.5px] mt-[25px] font-normal text-justify text-[#959595] accordianText' style={poppinsFontStyle}> Advocating for the establishment of full-service community schools that
+                                    <li className='xl:text-[19px] 2xl:text-[25px] text-[14px] xl:leading-[28.5px] 2xl:leading-[37.5px] mt-[25px] font-normal text-justify text-[#959595] accordianText' style={poppinsFontStyle}> Advocating for the establishment of full-service community schools that
                                         comprehensively support students and their families, both inside and outside the
                                         classroom.</li>
-                                    <li className='xl:text-[19px] 2xl:text-[25px] text-[12px] xl:leading-[28.5px] 2xl:leading-[37.5px] mt-[25px] font-normal text-justify text-[#959595] accordianText' style={poppinsFontStyle}>Investing in the professional development and well-being of our educators.</li>
-                                    <li className='xl:text-[19px] 2xl:text-[25px] text-[12px] xl:leading-[28.5px] 2xl:leading-[37.5px] mt-[25px] font-normal text-justify text-[#959595] accordianText' style={poppinsFontStyle}>Supporting the "Grow Your Own" initiative, aiming to increase the number of educators
+                                    <li className='xl:text-[19px] 2xl:text-[25px] text-[14px] xl:leading-[28.5px] 2xl:leading-[37.5px] mt-[25px] font-normal text-justify text-[#959595] accordianText' style={poppinsFontStyle}>Investing in the professional development and well-being of our educators.</li>
+                                    <li className='xl:text-[19px] 2xl:text-[25px] text-[14px] xl:leading-[28.5px] 2xl:leading-[37.5px] mt-[25px] font-normal text-justify text-[#959595] accordianText' style={poppinsFontStyle}>Supporting the "Grow Your Own" initiative, aiming to increase the number of educators
                                         from diverse backgrounds to better reflect the increasingly diverse student population. </li>
 
                                 </ul>
@@ -137,13 +137,13 @@ const PriotitesAccordian = () => {
                                     residents, often forcing them to make difficult choices, such as staying at home or relocating.</p>
                                 <p className='xl:text-[19px] 2xl:text-[25px] xl:leading-[28.5px] 2xl:leading-[37.5px] mt-[25px] font-normal text-justify text-[#959595] accordianText' style={poppinsFontStyle}>As your legislator, I will support:</p>
                                 <ul className='list-disc 2xl:pl-[22px] xl:pl-[20px] pl-[16px] '>
-                                    <li className='xl:text-[19px] 2xl:text-[25px] text-[12px] xl:leading-[28.5px] 2xl:leading-[37.5px] mt-[25px] font-normal text-justify text-[#959595] accordianText' style={poppinsFontStyle}>
+                                    <li className='xl:text-[19px] 2xl:text-[25px] text-[14px] xl:leading-[28.5px] 2xl:leading-[37.5px] mt-[25px] font-normal text-justify text-[#959595] accordianText' style={poppinsFontStyle}>
                                         Expand eligibility criteria for childcare assistance program.
                                     </li>
-                                    <li className='xl:text-[19px] 2xl:text-[25px] text-[12px] xl:leading-[28.5px] 2xl:leading-[37.5px] mt-[25px] font-normal text-justify text-[#959595] accordianText' style={poppinsFontStyle}>
+                                    <li className='xl:text-[19px] 2xl:text-[25px] text-[14px] xl:leading-[28.5px] 2xl:leading-[37.5px] mt-[25px] font-normal text-justify text-[#959595] accordianText' style={poppinsFontStyle}>
                                         Foster childcare provider startups.
                                     </li>
-                                    <li className='xl:text-[19px] 2xl:text-[25px] text-[12px] xl:leading-[28.5px] 2xl:leading-[37.5px] mt-[25px] font-normal text-justify text-[#959595] accordianText' style={poppinsFontStyle}>
+                                    <li className='xl:text-[19px] 2xl:text-[25px] text-[14px] xl:leading-[28.5px] 2xl:leading-[37.5px] mt-[25px] font-normal text-justify text-[#959595] accordianText' style={poppinsFontStyle}>
                                         Use data to inform early childhood policy decisions.
                                     </li>
                                 </ul>
@@ -176,15 +176,15 @@ const PriotitesAccordian = () => {
                                     sustain households but also contribute to housing and overall economic stability for families.</p>
                                 <p className='xl:text-[19px] 2xl:text-[25px] xl:leading-[28.5px] 2xl:leading-[37.5px] mt-[25px] font-normal text-justify text-[#959595] accordianText' style={poppinsFontStyle}>As your legislator, I will:</p>
                                 <ul className='list-disc 2xl:pl-[22px] xl:pl-[20px] pl-[16px] '>
-                                    <li className='xl:text-[19px] 2xl:text-[25px] text-[12px] xl:leading-[28.5px] 2xl:leading-[37.5px] mt-[25px] font-normal text-justify text-[#959595] accordianText' style={poppinsFontStyle}>
+                                    <li className='xl:text-[19px] 2xl:text-[25px] text-[14px] xl:leading-[28.5px] 2xl:leading-[37.5px] mt-[25px] font-normal text-justify text-[#959595] accordianText' style={poppinsFontStyle}>
                                         Support investments in the St. Cloud Downtown Revitalization project to enhance and
                                         benefit our entire region.
                                     </li>
-                                    <li className='xl:text-[19px] 2xl:text-[25px] text-[12px] xl:leading-[28.5px] 2xl:leading-[37.5px] mt-[25px] font-normal text-justify text-[#959595] accordianText' style={poppinsFontStyle}>
+                                    <li className='xl:text-[19px] 2xl:text-[25px] text-[14px] xl:leading-[28.5px] 2xl:leading-[37.5px] mt-[25px] font-normal text-justify text-[#959595] accordianText' style={poppinsFontStyle}>
                                         Advocate for workers' rights, ensuring they experience safe, secure, and fair working
                                         conditions.
                                     </li>
-                                    <li className='xl:text-[19px] 2xl:text-[25px] text-[12px] xl:leading-[28.5px] 2xl:leading-[37.5px] mt-[25px] font-normal text-justify text-[#959595] accordianText' style={poppinsFontStyle}>
+                                    <li className='xl:text-[19px] 2xl:text-[25px] text-[14px] xl:leading-[28.5px] 2xl:leading-[37.5px] mt-[25px] font-normal text-justify text-[#959595] accordianText' style={poppinsFontStyle}>
                                         Work to secure additional investments for our small businesses, which serve as critical
                                         economic engines, ensuring they have the support needed to rebuild and thrive.
                                     </li>
@@ -214,17 +214,17 @@ const PriotitesAccordian = () => {
                                     need to ensure we continue to champion progressive climate actions.</p>
                                 <p className='xl:text-[19px] 2xl:text-[25px] xl:leading-[28.5px] 2xl:leading-[37.5px] mt-[25px] font-normal text-justify text-[#959595] accordianText' style={poppinsFontStyle}>As your legislator, I will: </p>
                                 <ul className='list-disc 2xl:pl-[22px] xl:pl-[20px] pl-[16px] '>
-                                    <li className='xl:text-[19px] 2xl:text-[25px] text-[12px] xl:leading-[28.5px] 2xl:leading-[37.5px] mt-[25px] font-normal text-justify text-[#959595] accordianText' style={poppinsFontStyle}>
+                                    <li className='xl:text-[19px] 2xl:text-[25px] text-[14px] xl:leading-[28.5px] 2xl:leading-[37.5px] mt-[25px] font-normal text-justify text-[#959595] accordianText' style={poppinsFontStyle}>
                                         Advocate implementing strategies to significantly reduce carbon emissions, contributing
                                         to the global effort to combat climate change.
 
                                     </li>
-                                    <li className='xl:text-[19px] 2xl:text-[25px] text-[12px] xl:leading-[28.5px] 2xl:leading-[37.5px] mt-[25px] font-normal text-justify text-[#959595] accordianText' style={poppinsFontStyle}>
+                                    <li className='xl:text-[19px] 2xl:text-[25px] text-[14px] xl:leading-[28.5px] 2xl:leading-[37.5px] mt-[25px] font-normal text-justify text-[#959595] accordianText' style={poppinsFontStyle}>
                                         Promote the growth of green energy sources such as wind, solar, biomass, and other
                                         sustainable alternatives to diversify our energy portfolio and decrease reliance on
                                         traditional fossil fuels.
                                     </li>
-                                    <li className='xl:text-[19px] 2xl:text-[25px] text-[12px] xl:leading-[28.5px] 2xl:leading-[37.5px] mt-[25px] font-normal text-justify text-[#959595] accordianText' style={poppinsFontStyle}>
+                                    <li className='xl:text-[19px] 2xl:text-[25px] text-[14px] xl:leading-[28.5px] 2xl:leading-[37.5px] mt-[25px] font-normal text-justify text-[#959595] accordianText' style={poppinsFontStyle}>
                                         Pushed for increase investment in state and local infrastructure for waste management
                                         and drinking water, ensuring that our communities have robust systems capable of
                                         withstanding the challenges posed by climate change.
@@ -256,14 +256,14 @@ const PriotitesAccordian = () => {
                                     financial constraints. </p>
                                 <p className='xl:text-[19px] 2xl:text-[25px] xl:leading-[28.5px] 2xl:leading-[37.5px] mt-[25px] font-normal text-justify text-[#959595] accordianText' style={poppinsFontStyle}>As your legislator, I will: </p>
                                 <ul className='list-disc 2xl:pl-[22px] xl:pl-[20px] pl-[16px] '>
-                                    <li className='xl:text-[19px] 2xl:text-[25px] text-[12px] xl:leading-[28.5px] 2xl:leading-[37.5px] mt-[25px] font-normal text-justify text-[#959595] accordianText' style={poppinsFontStyle}>
+                                    <li className='xl:text-[19px] 2xl:text-[25px] text-[14px] xl:leading-[28.5px] 2xl:leading-[37.5px] mt-[25px] font-normal text-justify text-[#959595] accordianText' style={poppinsFontStyle}>
                                         Advocate the expansion of MinnesotaCare
                                     </li>
-                                    <li className='xl:text-[19px] 2xl:text-[25px] text-[12px] xl:leading-[28.5px] 2xl:leading-[37.5px] mt-[25px] font-normal text-justify text-[#959595] accordianText' style={poppinsFontStyle}>
+                                    <li className='xl:text-[19px] 2xl:text-[25px] text-[14px] xl:leading-[28.5px] 2xl:leading-[37.5px] mt-[25px] font-normal text-justify text-[#959595] accordianText' style={poppinsFontStyle}>
                                         Negotiate for reduced pharmaceutical prices to make life-saving medications more
                                         accessible.
                                     </li>
-                                    <li className='xl:text-[19px] 2xl:text-[25px] text-[12px] xl:leading-[28.5px] 2xl:leading-[37.5px] mt-[25px] font-normal text-justify text-[#959595] accordianText' style={poppinsFontStyle}>
+                                    <li className='xl:text-[19px] 2xl:text-[25px] text-[14px] xl:leading-[28.5px] 2xl:leading-[37.5px] mt-[25px] font-normal text-justify text-[#959595] accordianText' style={poppinsFontStyle}>
                                         Work diligently to eliminate racial, sexual, and gender-based discrimination within the
                                         healthcare system.
                                     </li>
@@ -291,23 +291,23 @@ const PriotitesAccordian = () => {
                                     make decisions that are best for their well-being. </p>
                                 <p className='xl:text-[19px] 2xl:text-[25px] xl:leading-[28.5px] 2xl:leading-[37.5px] mt-[25px] font-normal text-justify text-[#959595] accordianText' style={poppinsFontStyle}>As your legislator, I will: </p>
                                 <ul className='list-disc 2xl:pl-[22px] xl:pl-[20px] pl-[16px] '>
-                                    <li className='xl:text-[19px] 2xl:text-[25px] text-[12px] xl:leading-[28.5px] 2xl:leading-[37.5px] mt-[25px] font-normal text-justify text-[#959595] accordianText' style={poppinsFontStyle}>
+                                    <li className='xl:text-[19px] 2xl:text-[25px] text-[14px] xl:leading-[28.5px] 2xl:leading-[37.5px] mt-[25px] font-normal text-justify text-[#959595] accordianText' style={poppinsFontStyle}>
                                         Utilize my legislative influence to safeguard and uphold a woman's right to make choices
                                         regarding her reproductive health.
                                     </li>
-                                    <li className='xl:text-[19px] 2xl:text-[25px] text-[12px] xl:leading-[28.5px] 2xl:leading-[37.5px] mt-[25px] font-normal text-justify text-[#959595] accordianText' style={poppinsFontStyle}>
+                                    <li className='xl:text-[19px] 2xl:text-[25px] text-[14px] xl:leading-[28.5px] 2xl:leading-[37.5px] mt-[25px] font-normal text-justify text-[#959595] accordianText' style={poppinsFontStyle}>
                                         Advocate for legislation that empowers women, allowing them to make well-informed
                                         and safe decisions about their health.
                                     </li>
-                                    <li className='xl:text-[19px] 2xl:text-[25px] text-[12px] xl:leading-[28.5px] 2xl:leading-[37.5px] mt-[25px] font-normal text-justify text-[#959595] accordianText' style={poppinsFontStyle}>
+                                    <li className='xl:text-[19px] 2xl:text-[25px] text-[14px] xl:leading-[28.5px] 2xl:leading-[37.5px] mt-[25px] font-normal text-justify text-[#959595] accordianText' style={poppinsFontStyle}>
                                         Champion unbiased and comprehensive sex education in schools, ensuring ageappropriate information that equips our children to make informed choices about
                                         sexual activity.
                                     </li>
-                                    <li className='xl:text-[19px] 2xl:text-[25px] text-[12px] xl:leading-[28.5px] 2xl:leading-[37.5px] mt-[25px] font-normal text-justify text-[#959595] accordianText' style={poppinsFontStyle}>
+                                    <li className='xl:text-[19px] 2xl:text-[25px] text-[14px] xl:leading-[28.5px] 2xl:leading-[37.5px] mt-[25px] font-normal text-justify text-[#959595] accordianText' style={poppinsFontStyle}>
                                         Guarantee access to medical care for women, irrespective of the decision they make
                                         regarding a pregnancy.
                                     </li>
-                                    <li className='xl:text-[19px] 2xl:text-[25px] text-[12px] xl:leading-[28.5px] 2xl:leading-[37.5px] mt-[25px] font-normal text-justify text-[#959595] accordianText' style={poppinsFontStyle}>
+                                    <li className='xl:text-[19px] 2xl:text-[25px] text-[14px] xl:leading-[28.5px] 2xl:leading-[37.5px] mt-[25px] font-normal text-justify text-[#959595] accordianText' style={poppinsFontStyle}>
                                         Acknowledge and respect the autonomy of women, trusting them to make the choices
                                         that align with their individual circumstances and well-being.
                                     </li>

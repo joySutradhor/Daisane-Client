@@ -14,8 +14,7 @@ import NewsMain from "./NewsMain";
 
 
 const News = () => {
-    let screenWidth = screen.width;
-    console.log('screen with is ', screenWidth);
+    
     const customFontStyle = {
         fontFamily: "'Oswald', sans-serif",
     };

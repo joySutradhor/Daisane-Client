@@ -1,7 +1,7 @@
 @media only screen and (min-width: 1366px) and (max-width: 1439px) {
     .mainCardCamp{
         width: 457px;
-       
+        height: 331px;
         padding-top: 30px;
         padding-bottom: 30px;
         object-fit: cover;

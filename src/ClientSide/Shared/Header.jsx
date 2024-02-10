@@ -2,15 +2,26 @@
 
 
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import logo from "/daisaneLogo.png";
-import { Link } from 'react-router-dom';
+import { Link , useLocation  } from 'react-router-dom';
 import "./header.css";
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 
 const Header = () => {
+    // const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+    // const poppinsFontStyle = {
+    //     fontFamily: "'Poppins', sans-serif",
+    // };
+
+    // const toggleMobileMenu = () => {
+    //     setIsMobileMenuOpen(!isMobileMenuOpen);
+    // };
+
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+    const location = useLocation();
 
     const poppinsFontStyle = {
         fontFamily: "'Poppins', sans-serif",
@@ -19,6 +30,10 @@ const Header = () => {
     const toggleMobileMenu = () => {
         setIsMobileMenuOpen(!isMobileMenuOpen);
     };
+
+    useEffect(() => {
+        setIsMobileMenuOpen(false); // Close the mobile menu on route change
+    }, [location.pathname]);
 
     return (
         <div>
@@ -46,7 +61,7 @@ const Header = () => {
 
             <div className="sm:hidden">
                 <div className='mx-[25px] headerSpace flex justify-between items-center py-[20px] relative'>
-                    <img src={logo} className='w-[71px] h-[25.82px]' alt="daisane logo" />
+                    <Link to="/"><img src={logo} className='w-[71px] h-[25.82px]' alt="daisane logo" /></Link>
                     <h4 onClick={toggleMobileMenu}>
                         {isMobileMenuOpen ? (
                             // Close icon or any other close representation
@@ -59,11 +74,11 @@ const Header = () => {
                 </div>
 
                 {isMobileMenuOpen && (
-                    <div className="flex flex-col py-[25px] pr-[25px] z-50 absolute bg-[#D9D9D9] right-0  w-[50%]  text-right">
-                        <Link to="/" className="font-bold text-[12px]  mb-[15px]" style={poppinsFontStyle}>Home</Link>
-                        <Link to="/priorities" className="font-bold text-[12px]  mb-[15px]" style={poppinsFontStyle}>Priorities</Link>
-                        <Link to="/endorsements" className="font-bold text-[12px]  mb-[15px]"style={poppinsFontStyle} >Endorsements</Link>
-                        <Link to="/news" className="font-bold text-[12px]  ">News & Events</Link>
+                    <div className="flex flex-col py-[25px] pr-[25px] z-50 absolute bg-[#D9D9D9] rounded-[2px] right-0  w-[50%]  text-right">
+                        <Link to="/" className="font-bold text-[14px]  mb-[15px]" style={poppinsFontStyle}>Home</Link>
+                        <Link to="/priorities" className="font-bold text-[14px]  mb-[15px]" style={poppinsFontStyle}>Priorities</Link>
+                        <Link to="/endorsements" className="font-bold text-[14px]  mb-[15px]"style={poppinsFontStyle} >Endorsements</Link>
+                        <Link to="/news" className="font-bold text-[14px]  " style={poppinsFontStyle}>News & Events</Link>
                         {/* <Link to="https://secure.actblue.com/donate/daisaneformn" target="_blank">
                             <button className="text-[12px] font-medium py-[10px] pl-[31px] pr-[31.49px] bg-[#12225D] text-white rounded-[10px]" style={poppinsFontStyle}>Donate</button>
                         </Link> */}
