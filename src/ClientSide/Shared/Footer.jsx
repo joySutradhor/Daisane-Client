@@ -78,7 +78,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <h4 className="xl:text-center copyrightText px-[25px] xl:text-[20px] text-[12px] leading-[15px] 2xl:leading-[30px] xl:pb-[50px] pb-[60px] 2xl:pb-[100px] text-[#F5F5F5]" style={poppinsFontStyle}>Designed and Developed by <span className="border-b-[1px] "><Link to="https://www.fowzimedia.com/" target="_blank">Fowzi Media.</Link></span> Copyright © Daisane For State Representative. All rights reserved.</h4>
+                <h4 className="xl:text-center copyrightText px-[25px] xl:text-[17px] text-[9px] leading-[15px] 2xl:leading-[30px] xl:pb-[50px] pb-[60px] 2xl:pb-[100px] text-[#F5F5F5]" style={poppinsFontStyle}>Designed and Developed by <span className="border-b-[1px] "><Link to="https://www.fowzimedia.com/" target="_blank">Fowzi Media.</Link></span> Copyright © Daisane For State Representative. All rights reserved.</h4>
             </div>
 
         </div>

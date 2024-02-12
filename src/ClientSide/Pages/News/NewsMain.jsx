@@ -39,7 +39,7 @@ export default function NewsMain() {
                     >
 
                         <SwiperSlide>
-                            <div className='xl:flex  '>
+                            <div className='xl:flex '>
                                 <div>
                                     <style>
                                         {`
@@ -86,7 +86,7 @@ export default function NewsMain() {
 
                                     <div className="2xl:w-[485px] xl:w-[380px] newCardGap 2xl:mb-[70px] xl:mb-[57px] shadow-lg">
                                         <img className="2xl:w-[485px] xl:w-[380px] xl:h-[276px] 2xl:h-[352px] object-cover mainCard  " src={carousel3} alt="" />
-                                        <h3 className="2xl:text-[25px] xl:text-[20px] xl:leading-[28px] 2xl:leading-[28px] font-bold 2xl:pt-[35px] xl:pt-[20px] xl:pb-[15px] xl:pl-[15px] 2xl:pb-[25px] 2xl:pl-[20px] cardMainText" style={customFontStyle}>Rural Minnesota facing child-care deserts as pandemic makes bad situation worse</h3>
+                                        <h3 className="2xl:text-[25px] xl:text-[20px] xl:leading-[28px] 2xl:leading-[28px] font-bold 2xl:pt-[35px] xl:pt-[20px] xl:pb-[15px] xl:px-[15px] 2xl:pb-[25px] 2xl:px-[20px] cardMainText" style={customFontStyle}>Rural Minnesota facing child-care deserts as pandemic makes bad situation worse</h3>
                                         <h4 className="2xl:text-[25px] xl:text-[18px] xl:leading-[25px]  2xl:leading-[30px] font-normal text-justify  2xl:px-[20px] xl:px-[15px] text-[#7B7882] cardPara " style={poppinsFontStyle}>In recent months, Daisane’s Blooming Kids Child Care Center in St. Cloud has averaged about </h4>
                                         <div className="2xl:pb-[28px] xl:pb-[15px] 2xl:pt-[47px] xl:pt-[30px] cardTop ">
                                            <Link to="https://m.startribune.com/rural-minnesota-facing-child-care-deserts-as-pandemic-makes-bad-situation-worse/600028922/" target="_blank"> <button className="text-[#12225D] 2xl:text-[15px] xl:text-[12px] xl:leading-[15px] 2xl:leading-[22.5px] xl:mb-[5px] 2xl:mb-[8px] xl:ml-[15px] 2xl:ml-[20px]  border-b-[1px] border-[#12225D]">READ MORE</button></Link>
