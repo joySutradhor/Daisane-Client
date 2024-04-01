@@ -1,16 +1,16 @@
 @media only screen and (min-width: 1366px) and (max-width: 1439px) {
    .heroText {
-    font-size: 60px;
-    line-height: 80px;
+    font-size: 40px;
+    line-height: 50px;
     padding-top: 122px;
     margin-right: 0px;
    }
    .heroTexBottom {
-    margin-top: 121px;
+    margin-top: 40px;
    }
    .heroImg{
-    width: 651px;
-    height: 712px;
+    /* width: 651px; */
+    height: 100%;
     margin-top: 17px;
     padding-right: 62px;
     /* object-fit: cover; */

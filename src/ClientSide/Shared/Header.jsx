@@ -10,15 +10,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 
 const Header = () => {
-    // const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
-    // const poppinsFontStyle = {
-    //     fontFamily: "'Poppins', sans-serif",
-    // };
-
-    // const toggleMobileMenu = () => {
-    //     setIsMobileMenuOpen(!isMobileMenuOpen);
-    // };
 
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
     const location = useLocation();
@@ -37,7 +29,7 @@ const Header = () => {
 
     return (
         <div>
-            <div className="tB lR lefRight  hidden sm:block">
+            <div className="tB lR lefRight  hidden lg:block">
                 <style>
                     {`
           @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
@@ -59,7 +51,7 @@ const Header = () => {
 
             </div>
 
-            <div className="sm:hidden">
+            <div className="lg:hidden">
                 <div className='mx-[25px] headerSpace flex justify-between items-center py-[20px] relative'>
                     <Link to="/"><img src={logo} className='w-[71px] h-[25.82px]' alt="daisane logo" /></Link>
                     <h4 onClick={toggleMobileMenu}>

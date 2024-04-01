@@ -16,7 +16,7 @@ const SecondaryFooter = () => {
                     @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap') `}
             </style>
 
-            <div className="lR FooterSpace grid xl:grid-cols-2 grid-cols-1 items-center 2xl:h-[600px] xl:h-[500px] h-[250px]">
+            <div className="lR FooterSpace grid md:grid-cols-2 grid-cols-1 items-center 2xl:h-[600px] xl:h-[500px] h-[250px]">
                 <div>
                     <h3 className="secondaraySubText  " style={poppinsFontStyle}>Contribute to support Abdi Daisane</h3>
                     <h4 className="secondarayHeadText" style={customFontStyle}>Make a donation today!</h4>
